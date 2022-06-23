@@ -16,7 +16,7 @@ export default function Storybook() {
         <p>
           This is app allows you to create and save characters, plots, and
           perform writing excercises through helpful prompts.
-          <h3>Technologies used:</h3>
+          <h3 className="technologies">Technologies used:</h3>
           <ul>
             <li id="project" s>
               MongoDB
@@ -27,14 +27,14 @@ export default function Storybook() {
             <li id="project">NodeJS</li>
           </ul>{" "}
         </p>
-        <ul>
+        <div className="container">
           <a href="https://day-dream.vercel.app/">
             <button> Go to web app</button>
           </a>{" "}
           <a href="https://github.com/delaine3/dayDream">
             <button> Source Code </button>
           </a>
-        </ul>
+        </div>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ export default function SnakeGame() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="project-page">
-        <h1 className="delaine">Snake game </h1>
+        <h1>Snake game </h1>
 
         <p>
           This a snake game. The goal is to direct a snake using the up, down,
@@ -41,8 +41,7 @@ export default function SnakeGame() {
             is made using vanilla javascript and minimal css. Mine is created
             using the technologies below.
           </p>
-          <p>
-            <h3>Technologies used:</h3>
+            <h3 className="technologies">Technologies used:</h3>
             <ul>
               <li id="project">MongoDB</li>
               <li id="project">Express</li>
@@ -50,7 +49,6 @@ export default function SnakeGame() {
               <li id="project">NodeJS</li>
               <li id="project">NextJS</li>
             </ul>{" "}
-          </p>
         </p>
         <a href="https://snake-game-five-dun.vercel.app/">
           <button>Go to Delaine&rsquo;s version of the game </button>

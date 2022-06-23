@@ -21,7 +21,7 @@ export default function Pantry() {
           list and pantry sections, you can add food into your list by filling
           out a form. Please click on the button below to view and use the app.
           <p>
-            <h3>Technologies used:</h3>
+          <h3 className="technologies">Technologies used:</h3>
             <ul>
               <li id="project">MongoDB</li>
               <li id="project">Express</li>
@@ -31,7 +31,7 @@ export default function Pantry() {
             </ul>{" "}
           </p>
         </p>
-        <div>
+        <div className="container">
           <a href="https://pantry-dusky.vercel.app/">
             {" "}
             <button>Go to web app </button>

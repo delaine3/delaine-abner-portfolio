@@ -13,7 +13,7 @@ export default function ConnectFour() {
       </Head>
 
       <div className="project-page">
-        <h1 className="delaine">Connect 4 game </h1>
+        <h1>Connect 4 game </h1>
         <p>
           This a timed connect 4 game. Players are given a minute to connect 4
           dots in a vertical, horizontal or diagonal line. The first player to
@@ -41,7 +41,7 @@ export default function ConnectFour() {
               is made using Vanilla Javascript and minimal css. Mine is created
               using the technologies below.
             </p>
-            <h3>Technologies used:</h3>
+            <h3 className="technologies">Technologies used:</h3>
             <ul>
               <li id="project">MongoDB</li>
               <li id="project">Express</li>
@@ -51,17 +51,14 @@ export default function ConnectFour() {
             </ul>{" "}
           </p>
         </p>
-        <button>
+        <div className="container">
           <a href="https://connect-four-game.vercel.app/">
-            {" "}
-            Go to Delaine&rsquo;s version of the game
+            <button>Go to Delaine&rsquo;s version of the game</button>
           </a>
-        </button>
-        <button>
           <a href="https://github.com/delaine3/Connect_Four_Game">
-            Go to Delaine&rsquo;s source code
+            <button> Go to Delaine&rsquo;s source code </button>
           </a>
-        </button>
+        </div>
       </div>
     </div>
   );

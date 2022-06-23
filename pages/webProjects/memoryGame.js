@@ -47,7 +47,7 @@ export default function MemoryGame() {
             <li id="project">NextJS</li>
           </ul>{" "}
         </p>
-        <ul>
+        <div className="container">
           {" "}
           <a href="https://a-memory-game-seven.vercel.app/">
             {" "}
@@ -56,7 +56,7 @@ export default function MemoryGame() {
           <a href="https://github.com/delaine3/A_Memory_Game">
             <button>Go to Delaine&rsquo;s Source Code</button>
           </a>
-        </ul>
+        </div>
       </div>
     </div>
   );
