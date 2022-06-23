@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 
 //This is a function that displays my web apps
 export default function MemoryGame() {
@@ -12,11 +11,8 @@ export default function MemoryGame() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Link href="/">
-      <button className="home">Home</button>
-      </Link>
       <div className="project-page">
-        <h1 className="delaine">Memory Game</h1>
+        <h1>Memory Game</h1>
         <p>
           In this game the player has to turn over different tiles and try to
           find matching tiles. They get a point every time they uncover a
@@ -52,19 +48,14 @@ export default function MemoryGame() {
           </ul>{" "}
         </p>
         <ul>
-          <button>
+          {" "}
+          <a href="https://a-memory-game-seven.vercel.app/">
             {" "}
-            <a href="https://a-memory-game-seven.vercel.app/">
-              {" "}
-              Go to Delaine&rsquo;s version of the game{" "}
-            </a>{" "}
-          </button>
-          <button>
-            <a href="https://github.com/delaine3/A_Memory_Game">
-              {" "}
-              Go to Delaine&rsquo;s Source Code
-            </a>
-          </button>
+            <button> Go to Delaine&rsquo;s version of the game</button>
+          </a>{" "}
+          <a href="https://github.com/delaine3/A_Memory_Game">
+            <button>Go to Delaine&rsquo;s Source Code</button>
+          </a>
         </ul>
       </div>
     </div>

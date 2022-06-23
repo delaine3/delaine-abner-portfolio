@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 
 //This is a function that displays my web apps
 export default function wackAMole() {
@@ -12,57 +11,50 @@ export default function wackAMole() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Link href="/">
-      <button className="home">Home</button>
-      </Link>
       <div className="project-page">
         <h1 className="delaine">Wack a mole game</h1>
+        <p>
+          This a timed wack a mole game. Players are given a minute to wack as
+          many moles as they can. During the game they may pause and resume the
+          game. After the game is over they are presented with a form that
+          allows them to save their progress.
           <p>
-            This a timed wack a mole game. Players are given a minute to wack
-            as many moles as they can. During the game, they may pause and
-            resume the game. After the game is over they are presented with a
-            form that allows them to save their progress.
-            <p>
-              {" "}
-              Some of the code and or ideas from my game are adapted from the
-              following
-              <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                FreeCodeCamp Tutorial Video.
-              </a>{" "}
-              You can find the original source code of this tutorial in the
-              following
-              <a href="https://github.com/kubowania/whac-a-mole">
-                Github repo
-              </a>{" "}
-              The original source contains an MIT license which allows anyone
-              to use it. The game in the{" "}
-              <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                FreeCodeCamp Tutorial Video
-              </a>{" "}
-              is made using vanilla javascript and minimal css. Mine is
-              created using the technologies below.
-            </p>
-            <p>
-              <h3>Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">ReactJS</li>
-                <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
-              </ul>{" "}
-            </p>
+            {" "}
+            Some of the code and or ideas from my game are adapted from the
+            following
+            <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+              FreeCodeCamp Tutorial Video.
+            </a>{" "}
+            You can find the original source code of this tutorial in the
+            following
+            <a href="https://github.com/kubowania/whac-a-mole">
+              Github repo
+            </a>{" "}
+            The original source contains an MIT license which allows anyone to
+            use it. The game in the{" "}
+            <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+              FreeCodeCamp Tutorial Video
+            </a>{" "}
+            is made using vanilla javascript and minimal css. Mine is created
+            using the technologies below.
           </p>
-          <button>
-            <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
-            Go to Delaine&rsquo;s version of the game
-            </a>
-          </button>
-          <button>
-            <a href="https://github.com/delaine3/whack_a_mole">
-            Go to Delaine&rsquo;s source code
-            </a>
-          </button>
+          <p>
+            <h3>Technologies used:</h3>
+            <ul>
+              <li id="project">MongoDB</li>
+              <li id="project">Express</li>
+              <li id="project">ReactJS</li>
+              <li id="project">NodeJS</li>
+              <li id="project">NextJS</li>
+            </ul>{" "}
+          </p>
+        </p>
+        <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
+          <button>Go to Delaine&rsquo;s version of the game </button>
+        </a>
+        <a href="https://github.com/delaine3/whack_a_mole">
+          <button>Go to Delaine&rsquo;s source code </button>
+        </a>
       </div>
     </div>
   );

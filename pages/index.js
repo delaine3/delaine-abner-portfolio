@@ -13,43 +13,47 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div>
-        <h1 className="delaine">Delaine Abner</h1>
         <h2>Hi, my name is Delaine. Welcome to my portfolio.</h2>
         <div className="grid">
-          <span id="certificates-index" className="project-list">
-            <h3>Certificates</h3>
-            <p>These are the certificates I have attained thus far. They concern the following technologies.</p>
-            <ol>
-              <li id="project">C#</li>
-              <li id="project">Javascript</li>
-              <li id="project">AWS</li>
-              <li id="project">MongoDB</li>
-              
-            </ol>
-            <ul>
-              <Link href="/certificates">
-                <button>Certificates</button>
-              </Link>
-            </ul>
-          </span>
-          <span id="webapps-index" className="project-list">
+          <div id="webapps-index" >
             <h3>Web Apps</h3>
-            <p>These are projects that I have worked on. They are built using a combination of the following technologies. </p>
-            <ol >
+            <p>
+              These are projects that I have worked on. They are built using a
+              combination of the following technologies.{" "}
+            </p>
+            <ol>
               <li id="project">MongoDB</li>
               <li id="project">Express</li>
               <li id="project">ReactJS</li>
               <li id="project">NextJS</li>
               <li id="project">NodeJS</li>
-              
             </ol>{" "}
-            <ul>
+           
               <Link href="/webProjects">
-                <button>Go To Web Apps</button>
+                <a>
+                  <button>Go To Web Apps</button>
+                </a>
               </Link>
-            </ul>
-          </span>
+          
           </div>
+          <div id="certificates-index">
+            <h3>Certificates</h3>
+            <p>
+              These are the certificates I have attained thus far. They concern
+              the following technologies.
+            </p>
+            <ol>
+              <li id="project">C#</li>
+              <li id="project">Javascript</li>
+              <li id="project">AWS</li>
+              <li id="project">MongoDB</li>
+            </ol>
+              <Link href="/certificates">
+                <a>                <button>Go To Certificates</button>
+</a>
+              </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

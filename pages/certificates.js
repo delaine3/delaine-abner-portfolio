@@ -4,8 +4,10 @@ import React from "react";
 export default function Certificates() {
   return (
     <div>
-   
       <div className="certificates">
+        <p>
+          Welcome to my certificates page. Clicking on a certificate will take you to its verification  page.
+        </p>
         <ul>
           <li id="certificate-list">
             <a href="https://freecodecamp.org/certification/skyflower/javascript-algorithms-and-data-structures">

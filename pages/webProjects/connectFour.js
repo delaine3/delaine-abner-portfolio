@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 
 //This is a function that displays my web apps
 export default function ConnectFour() {
@@ -12,9 +11,7 @@ export default function ConnectFour() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Link href="/">
-        <button className="home">Home</button>
-      </Link>
+
       <div className="project-page">
         <h1 className="delaine">Connect 4 game </h1>
         <p>

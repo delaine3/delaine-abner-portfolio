@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 
 //This is a function that displays my web apps
 export default function Storybook() {
@@ -12,13 +11,10 @@ export default function Storybook() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Link href="/">
-      <button className="home">Home</button>
-      </Link>
       <div className="project-page">
-        <h1 className="delaine">Story Book</h1>
+        <h1>Story Book</h1>
         <p>
-          This is app allows you to create and save characters, plots and
+          This is app allows you to create and save characters, plots, and
           perform writing excercises through helpful prompts.
           <h3>Technologies used:</h3>
           <ul>
@@ -32,13 +28,12 @@ export default function Storybook() {
           </ul>{" "}
         </p>
         <ul>
-          <button>
-            {" "}
-            <a href="https://day-dream.vercel.app/"> Go to web app </a>{" "}
-          </button>
-          <button>
-            <a href="https://github.com/delaine3/dayDream"> Source Code</a>
-          </button>
+          <a href="https://day-dream.vercel.app/">
+            <button> Go to web app</button>
+          </a>{" "}
+          <a href="https://github.com/delaine3/dayDream">
+            <button> Source Code </button>
+          </a>
         </ul>
       </div>
     </div>
