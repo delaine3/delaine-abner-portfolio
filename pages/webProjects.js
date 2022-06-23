@@ -23,7 +23,6 @@ export default function WebProjects() {
         </p>
         <ul className="grid">
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Story Book </h2>
               <div id="project-links">
                 <p>
@@ -42,6 +41,7 @@ export default function WebProjects() {
                   <li id="project">NodeJS</li>
                   <li id="project">NextJS</li>
                 </ul>{" "}
+                <div className="container">
                 <a href="https://day-dream.vercel.app/">
                   {" "}
                   <button> Go to web app </button>
@@ -50,11 +50,11 @@ export default function WebProjects() {
                   {" "}
                   <button> Go to source code</button>
                 </a>
+                </div>
+     
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name"> Memory Game </h2>
               <div id="project-links">
                 <p>
@@ -73,6 +73,8 @@ export default function WebProjects() {
                   <li id="project">NodeJS</li>
                   <li id="project">NextJS</li>
                 </ul>{" "}
+                <div className="container">
+
                 <a href="https://a-memory-game-seven.vercel.app/">
                   {" "}
                   <button> Go to web app </button>
@@ -81,11 +83,10 @@ export default function WebProjects() {
                   {" "}
                   <button> Go to source code</button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Pantry</h2>
               <div id="project-links">
                 <p>
@@ -104,17 +105,18 @@ export default function WebProjects() {
                   <li id="project">NodeJS</li>
                   <li id="project">NextJS</li>
                 </ul>{" "}
+                <div className="container">
+
                 <a href="https://pantry-dusky.vercel.app/">
                   <button>Go to web app</button>
                 </a>
                 <a href="https://github.com/delaine3/Pantry">
                   <button>Go to source code</button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">My Portfolio</h2>
               <div id="project-links">
                 <p>
@@ -127,15 +129,16 @@ export default function WebProjects() {
                     </ul>{" "}
                   </p>
                 </p>{" "}
+                <div className="container">
+
                 <a href="https://github.com/delaine3/my-nextjs-portfolio">
                   {" "}
                   <button>Go to source code</button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Text Formatter</h2>
               <div id="project-links">
                 <p>
@@ -150,7 +153,7 @@ export default function WebProjects() {
                     </ul>
                   </p>
                 </p>
-                <div>
+                <div className="container">
                   <a href="https://text-formatter-zeta.vercel.app/">
                     <button> Go to web app</button>
                   </a>
@@ -160,10 +163,8 @@ export default function WebProjects() {
                   </a>
                 </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Calculator </h2>
               <div id="project-links">
                 <p>
@@ -179,6 +180,8 @@ export default function WebProjects() {
                     </ul>{" "}
                   </p>
                 </p>
+                <div className="container">
+
                 <a href="https://calculator-mu-ten.vercel.app/">
                   <button> Go to web app</button>
                 </a>
@@ -187,11 +190,10 @@ export default function WebProjects() {
                   
                   <button>Go to source code</button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Drum Machine </h2>
               <div id="project-links">
                 <p>
@@ -205,14 +207,15 @@ export default function WebProjects() {
                     </ul>{" "}
                   </p>
                 </p>
+                <div className="container">
+
                 <a href="https://codepen.io/Delaine/pen/eYRNBra?editors=1010">
                   <button> Go to codepen </button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Markdown Preview </h2>
               <div id="project-links">
                 <p>
@@ -225,14 +228,15 @@ export default function WebProjects() {
                     </ul>{" "}
                   </p>
                 </p>
+                <div className="container">
+
                 <a href="https://codepen.io/Delaine/pen/oNWOPyd">
                   <button>Go to codepen</button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Whack a Mole Game </h2>
 
               <div id="project-links">
@@ -252,6 +256,8 @@ export default function WebProjects() {
                   <li id="project">NodeJS</li>
                   <li id="project">NextJS</li>
                 </ul>{" "}
+                <div className="container">
+
                 <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
                   <button> Go to web app </button>
                 </a>
@@ -259,10 +265,9 @@ export default function WebProjects() {
                   <button>Go to source code</button>
                 </a>
               </div>
-            </div>
+              </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Random Quote Generator </h2>
               <div id="project-links">
                 <div>
@@ -278,14 +283,15 @@ export default function WebProjects() {
                     </p>
                   </p>
                 </div>
+                <div className="container">
+
                 <a href="https://codepen.io/Delaine/pen/jOmxpQd">
                   <button> Go to web app </button>
                 </a>
               </div>
-            </div>
+              </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Connect 4 Game </h2>
               <div id="project-links">
                 <p>
@@ -304,6 +310,8 @@ export default function WebProjects() {
                   <li id="project">NodeJS</li>
                   <li id="project">NextJS</li>
                 </ul>{" "}
+                <div className="container">
+
                 <a href="https://connect-four-game.vercel.app/">
                   <button> Go to web app </button>
                 </a>
@@ -311,10 +319,9 @@ export default function WebProjects() {
                   <button>Go to source code</button>
                 </a>
               </div>
-            </div>
+              </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Achievement Tracker </h2>
               <div id="project-links">
                 <div>
@@ -333,17 +340,18 @@ export default function WebProjects() {
                     </p>
                   </p>
                 </div>
+                <div className="container">
+
                 <a href="https://achievements-peach.vercel.app/">
                   <button> Go to web app </button>
                 </a>
                 <a href="https://github.com/delaine3/Achievements">
                   <button>Go to source code</button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Snake Game </h2>
               <div id="project-links">
                 <p>
@@ -362,17 +370,18 @@ export default function WebProjects() {
                   <li id="project">NodeJS</li>
                   <li id="project">NextJS</li>
                 </ul>{" "}
+                <div className="container">
+
                 <a href="https://snake-game-five-dun.vercel.app/">
                   <button> Go to web app</button>
                 </a>
                 <a href="https://github.com/delaine3/snake_game">
                   <button>Go to source code</button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Timer App </h2>
               <div id="project-links">
                 <div>
@@ -387,17 +396,18 @@ export default function WebProjects() {
                     </p>
                   </p>
                 </div>
+                <div className="container">
+
                 <a href="https://timer-project-one.vercel.app/">
                   <button> Go to web app</button>
                 </a>
                 <a href="https://github.com/delaine3/timer-project">
                   <button>Go to source code</button>
                 </a>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name">Simple Website</h2>
               <div id="project-links">
                 <div>
@@ -417,16 +427,14 @@ export default function WebProjects() {
                     </p>
                   </p>
                 </div>
-                <ul>
+                <div className="container">
                   <a href="https://codepen.io/Delaine/pen/NWdZmyW">
                     <button> Go to website codepen</button>
                   </a>
-                </ul>
+                </div>
               </div>
-            </div>
           </li>
           <li className="project-list">
-            <div className="main-content">
               <h2 className="project-name"> Survey Form Website</h2>
               <div id="project-links">
                 <div>
@@ -442,13 +450,12 @@ export default function WebProjects() {
                     </p>
                   </p>
                 </div>
-                <ul>
+                <div className="container">
                   <a href="https://codepen.io/Delaine/pen/oNBroGY">
                     <button> Go to website codepen</button>
                   </a>
-                </ul>
+                </div>
               </div>
-            </div>
           </li>
         </ul>
       </div>

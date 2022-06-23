@@ -21,14 +21,13 @@ export default function Index() {
               These are projects that I have worked on. They are built using a
               combination of the following technologies.{" "}
             </p>
-            <ol>
+            <ul>
               <li id="project">MongoDB</li>
               <li id="project">Express</li>
               <li id="project">ReactJS</li>
               <li id="project">NextJS</li>
               <li id="project">NodeJS</li>
-            </ol>{" "}
-           
+            </ul>{" "}
               <Link href="/webProjects">
                 <a>
                   <button>Go To Web Apps</button>
@@ -42,12 +41,12 @@ export default function Index() {
               These are the certificates I have attained thus far. They concern
               the following technologies.
             </p>
-            <ol>
+            <ul>
               <li id="project">C#</li>
               <li id="project">Javascript</li>
               <li id="project">AWS</li>
               <li id="project">MongoDB</li>
-            </ol>
+            </ul>
               <Link href="/certificates">
                 <a>                <button>Go To Certificates</button>
 </a>

@@ -5,7 +5,7 @@ export default function Certificates() {
   return (
     <div>
       <div className="certificates">
-        <p>
+        <p className="blurb">
           Welcome to my certificates page. Clicking on a certificate will take you to its verification  page.
         </p>
         <ul>
