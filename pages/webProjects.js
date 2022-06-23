@@ -371,7 +371,7 @@ export default function WebProjects() {
               <div>
                 <p>
                   This app is similar to a pomodoro timer. Users can set a
-                  countdown, aswell as schedule breaks.
+                  countdown, as well as schedule breaks.
                   <p>
                     <h3 className="technologies">Technologies used:</h3>
                     <ul>

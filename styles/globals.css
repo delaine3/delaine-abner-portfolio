@@ -168,6 +168,8 @@ h1 {
 
 img {
   width: 98.5%;
+  box-shadow: 2px 2px 15px #ff3cef;
+
 }
 .certificates ul {
   padding: 0;
