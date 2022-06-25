@@ -127,7 +127,7 @@ export default function WebProjects() {
                 </p>
               </p>{" "}
               <div className="container">
-                <a href="https://github.com/delaine3/my-nextjs-portfolio">
+                <a href="https://github.com/delaine3/delaine-abner-portfolio">
                   {" "}
                   <button>Go to source code</button>
                 </a>
