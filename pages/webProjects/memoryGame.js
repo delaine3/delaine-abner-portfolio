@@ -38,7 +38,7 @@ export default function MemoryGame() {
             is made using Vanilla Javascript and minimal css. Mine is created
             using the technologies below.
           </p>
-          <h3>Technologies used:</h3>
+          <h3 className="technologies">Technologies used:</h3>
           <ul>
             <li id="project">MongoDB</li>
             <li id="project">Express</li>
