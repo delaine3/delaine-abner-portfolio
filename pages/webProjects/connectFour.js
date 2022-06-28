@@ -41,6 +41,8 @@ export default function ConnectFour() {
               is made using Vanilla Javascript and minimal css. Mine is created
               using the technologies below.
             </p>
+            <div className="center-box">
+
             <h3 className="technologies">Technologies used:</h3>
             <ul>
               <li id="project">MongoDB</li>
@@ -49,6 +51,7 @@ export default function ConnectFour() {
               <li id="project">NodeJS</li>
               <li id="project">NextJS</li>
             </ul>{" "}
+            </div>
           </p>
         </p>
         <div className="container">

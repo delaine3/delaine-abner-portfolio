@@ -19,7 +19,7 @@ export default function MemoryGame() {
           matching pair and lose half a point if their pair does not match. If
           they win the game, they can input their name and save their score. The
           scores on the leader board are arranged alphabetically.
-          <p>
+         
             {" "}
             Some of the ideas from this game are adapted from the the following
             <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
@@ -38,15 +38,16 @@ export default function MemoryGame() {
             is made using Vanilla Javascript and minimal css. Mine is created
             using the technologies below.
           </p>
+          <div className="center-box">
           <h3 className="technologies">Technologies used:</h3>
-          <ul>
+          <ul >
             <li id="project">MongoDB</li>
             <li id="project">Express</li>
             <li id="project">ReactJS</li>
             <li id="project">NodeJS</li>
             <li id="project">NextJS</li>
           </ul>{" "}
-        </p>
+       
         <div className="container">
           {" "}
           <a href="https://a-memory-game-seven.vercel.app/">
@@ -56,6 +57,7 @@ export default function MemoryGame() {
           <a href="https://github.com/delaine3/A_Memory_Game">
             <button>Go to Delaine&rsquo;s Source Code</button>
           </a>
+        </div>
         </div>
       </div>
     </div>

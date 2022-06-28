@@ -17,45 +17,43 @@ export default function wackAMole() {
           This a timed whac a mole game. Players are given a minute to wack as
           many moles as they can. During the game they may pause and resume the
           game. After the game is over they are presented with a form that
-          allows them to save their progress.  </p>
-          <p>
-            {" "}
-            Some of the code and or ideas from my game are adapted from the
-            following
-            <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-              FreeCodeCamp Tutorial Video.
-            </a>{" "}
-            You can find the original source code of this tutorial in the
-            following
-            <a href="https://github.com/kubowania/whac-a-mole">
-              Github repo
-            </a>{" "}
-            The original source contains an MIT license which allows anyone to
-            use it. The game in the{" "}
-            <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-              FreeCodeCamp Tutorial Video
-            </a>{" "}
-            is made using vanilla javascript and minimal css. Mine is created
-            using the technologies below.
-          </p>        
-
-            <h3 className="technologies">Technologies used:</h3>
-            <ul>
-              <li id="project">MongoDB</li>
-              <li id="project">Express</li>
-              <li id="project">ReactJS</li>
-              <li id="project">NodeJS</li>
-              <li id="project">NextJS</li>
-            </ul>{" "}
-      
-            <div className="container">
-
-        <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
-          <button>Go to Delaine&rsquo;s version of the game </button>
-        </a>
-        <a href="https://github.com/delaine3/whack_a_mole">
-          <button>Go to Delaine&rsquo;s source code </button>
-        </a>
+          allows them to save their progress.{" "}
+        </p>
+        <p>
+          {" "}
+          Some of the code and or ideas from my game are adapted from the
+          following
+          <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+            FreeCodeCamp Tutorial Video.
+          </a>{" "}
+          You can find the original source code of this tutorial in the
+          following
+          <a href="https://github.com/kubowania/whac-a-mole">Github repo</a> The
+          original source contains an MIT license which allows anyone to use it.
+          The game in the{" "}
+          <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+            FreeCodeCamp Tutorial Video
+          </a>{" "}
+          is made using vanilla javascript and minimal css. Mine is created
+          using the technologies below.
+        </p>
+        <div className="center-box">
+          <h3 className="technologies">Technologies used:</h3>
+          <ul>
+            <li id="project">MongoDB</li>
+            <li id="project">Express</li>
+            <li id="project">ReactJS</li>
+            <li id="project">NodeJS</li>
+            <li id="project">NextJS</li>
+          </ul>{" "}
+          <div className="container">
+            <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
+              <button>Go to Delaine&rsquo;s version of the game </button>
+            </a>
+            <a href="https://github.com/delaine3/whack_a_mole">
+              <button>Go to Delaine&rsquo;s source code </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

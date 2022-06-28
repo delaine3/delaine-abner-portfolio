@@ -20,7 +20,7 @@ export default function Pantry() {
           seperated into 2 tabs: shopping list and pantry. For both the shopping
           list and pantry sections, you can add food into your list by filling
           out a form. Please click on the button below to view and use the app.
-          <p>
+          </p><div className="center-box">
           <h3 className="technologies">Technologies used:</h3>
             <ul>
               <li id="project">MongoDB</li>
@@ -29,17 +29,17 @@ export default function Pantry() {
               <li id="project">NodeJS</li>
               <li id="project">NextJS</li>
             </ul>{" "}
-          </p>
-        </p>
+        
         <div className="container">
           <a href="https://pantry-dusky.vercel.app/">
             {" "}
-            <button>Go to web app </button>
+            <button>Go To Web App </button>
           </a>{" "}
           <a href="https://github.com/delaine3/Pantry">
             {" "}
             <button>Source Code </button>
           </a>
+        </div>
         </div>
       </div>
     </div>

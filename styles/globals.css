@@ -26,11 +26,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
   text-shadow: 5px 5px 5px #ffffff;
-
 }
-.technologies{
+.technologies {
   padding-top: 8px;
-  text-align:left ;
+  text-align: left;
 }
 
 .App {
@@ -42,7 +41,6 @@ body {
 .center {
   margin: auto;
   width: 100%;
-  min-width: min-content;
 }
 
 .tile-list {
@@ -98,31 +96,45 @@ button:hover {
   box-shadow: 0px 0px 10px 1px #86888b;
 }
 
-#project-links {
-  margin: 5%;
-}
-p {
-  margin: 10px;
-  padding-bottom:4px;
-}
-.container {
-  margin: 20px;
-  display: flex; /* or inline-flex */
-}
 button {
-  padding-bottom: 5px;
+  padding: 5px;
   background-color: #ffffffbd;
   color: #e400c9;
   border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.521);
   font-size: 15px;
   font-weight: bold;
   box-shadow: 0px 0px 3px 1px #6d9cff;
 }
+.container button {
+  width: 150px;
+  height: 50px;
+  margin-left: 5px;
+  background-color: #ffffffbd;
+  color: #429e00;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 0px 3px 1px #6d9cff;
+}
+.container button:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #ffffffbd;
+  color: #8c00ff;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 0px 3px 1px #6d9cff;
+}
+p {
+  margin: 10px;
+  padding-bottom: 4px;
+}
+.container {
+}
+
 a {
-  padding: 2px;
   align-items: center;
-  display: flex-start;
   text-shadow: #ff4cea 1px 1px 5px;
 }
 
@@ -130,12 +142,16 @@ a:hover {
   color: #ffffff;
 }
 .project-name {
-  font-size: 20px;
+  font-size: 27px;
 }
 
 h1.delaine {
   font-size: 47px;
-  margin: 33px;
+  margin-top: 33px;
+  box-sizing: content-box;
+  text-align: center;
+  padding: 0;
+  width: 50%;
 }
 
 h1 {
@@ -169,7 +185,6 @@ h1 {
 img {
   width: 98.5%;
   box-shadow: 2px 2px 15px #ff3cef;
-
 }
 .certificates ul {
   padding: 0;
@@ -188,9 +203,22 @@ img {
   position: relative;
   background-color: #ffffff91;
 }
-
+.center-box {
+  min-width: fit-content;
+  width: 50%;
+  margin: auto;
+}
+.center-box ul {
+  width: 50%;
+  margin: auto;
+}
+.center-box .technologies {
+  color: #0038a0;
+  text-align: center;
+}
 .project-page {
   min-width: min-content;
+  align-content: center;
   width: 50%;
   margin: auto;
   background-color: rgba(240, 248, 255, 0.445);
@@ -200,11 +228,12 @@ img {
 }
 
 .project-list {
-  padding: 20px;
+  align-items: center;
   min-width: min-content;
+  padding: 25px;
   width: 300px;
   height: 400px;
-  border: 1.25px solid rgba(35, 70, 151, 0.568);
+  border: 1.25px solid rgba(36, 85, 199, 0.568);
   border-radius: 16px;
   margin: 5px;
   position: relative;
@@ -245,8 +274,4 @@ h3 {
   color: #9900ff;
   font-weight: bold;
   font-size: 18px;
-}
-ul{
-  overflow: hidden;
-
 }

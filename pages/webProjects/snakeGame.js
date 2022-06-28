@@ -13,7 +13,6 @@ export default function SnakeGame() {
       </Head>
       <div className="project-page">
         <h1>Snake game </h1>
-
         <p>
           This a snake game. The goal is to direct a snake using the up, down,
           left and right arrows to food withouth hitting the boundaries of the
@@ -21,41 +20,38 @@ export default function SnakeGame() {
           allows them to save their score. There is also a page that contains a
           leaderboard which contains the scores of other players in descending
           order.
-          <p>
-            {" "}
-            Some of the code and ideas from my game are adapted from the
-            following
-            <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-              FreeCodeCamp Tutorial Video.
-            </a>{" "}
-            You can find the original source code of this tutorial in the
-            following
-            <a href="https://github.com/kubowania/Nokia3310-Snake">
-              Github repo
-            </a>{" "}
-            The original source contains an MIT license which allows anyone to
-            use it. The game in the{" "}
-            <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-              FreeCodeCamp Tutorial Video
-            </a>{" "}
-            is made using vanilla javascript and minimal css. Mine is created
-            using the technologies below.
-          </p>
-            <h3 className="technologies">Technologies used:</h3>
-            <ul>
-              <li id="project">MongoDB</li>
-              <li id="project">Express</li>
-              <li id="project">ReactJS</li>
-              <li id="project">NodeJS</li>
-              <li id="project">NextJS</li>
-            </ul>{" "}
-        </p>
-        <a href="https://snake-game-five-dun.vercel.app/">
-          <button>Go to Delaine&rsquo;s version of the game </button>
-        </a>
-        <a href="https://github.com/delaine3/snake_game">
-          <button>Go to Delaine&rsquo;s source code </button>
-        </a>
+        </p>{" "}
+        Some of the code and ideas from my game are adapted from the following
+        <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+          FreeCodeCamp Tutorial Video.
+        </a>{" "}
+        You can find the original source code of this tutorial in the following
+        <a href="https://github.com/kubowania/Nokia3310-Snake">
+          Github repo
+        </a>{" "}
+        The original source contains an MIT license which allows anyone to use
+        it. The game in the{" "}
+        <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+          FreeCodeCamp Tutorial Video
+        </a>{" "}
+        is made using vanilla javascript and minimal css. Mine is created using
+        the technologies below.
+        <div className="center-box">
+          <h3 className="technologies">Technologies used:</h3>
+          <ul>
+            <li id="project">MongoDB</li>
+            <li id="project">Express</li>
+            <li id="project">ReactJS</li>
+            <li id="project">NodeJS</li>
+            <li id="project">NextJS</li>
+          </ul>{" "}
+          <a href="https://snake-game-five-dun.vercel.app/">
+            <button>Go to Delaine&rsquo;s version of the game </button>
+          </a>
+          <a href="https://github.com/delaine3/snake_game">
+            <button>Go to Delaine&rsquo;s source code </button>
+          </a>
+        </div>
       </div>
     </div>
   );

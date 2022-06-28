@@ -7,16 +7,16 @@ export default function Navbar() {
         <Link href="/">
           <a className="nav-link">Home</a>
         </Link>{" "}
-        <Link href="/certificates">
-          <a className="nav-link">Certificates</a>
-        </Link>{" "}
         <Link href="/webProjects">
           <a className="nav-link">Web Apps</a>
         </Link>{" "}
-
+        <Link href="/certificates">
+          <a className="nav-link">Certificates</a>
+        </Link>{" "}
       </nav>
-              <h1 className="delaine">Delaine Abner</h1>
-
+      <div className="center">
+        <h1 className="delaine">Delaine Abner</h1>
+      </div>
     </div>
   );
 }

@@ -15,7 +15,7 @@ export default function Index() {
       <div>
         <h2>Hi, my name is Delaine. Welcome to my portfolio.</h2>
         <div className="grid">
-          <div id="webapps-index" >
+          <div id="webapps-index">
             <h3>Web Apps</h3>
             <p>
               These are projects that I have worked on. They are built using a
@@ -28,12 +28,11 @@ export default function Index() {
               <li id="project">NextJS</li>
               <li id="project">NodeJS</li>
             </ul>{" "}
-              <Link href="/webProjects">
-                <a>
-                  <button>Go To Web Apps</button>
-                </a>
-              </Link>
-          
+            <Link href="/webProjects">
+              <a>
+                <button>Go To Web Apps</button>
+              </a>
+            </Link>
           </div>
           <div id="certificates-index">
             <h3>Certificates</h3>
@@ -47,10 +46,12 @@ export default function Index() {
               <li id="project">AWS</li>
               <li id="project">MongoDB</li>
             </ul>
-              <Link href="/certificates">
-                <a>                <button>Go To Certificates</button>
-</a>
-              </Link>
+            <Link href="/certificates">
+              <a>
+                {" "}
+                <button>Go To Certificates</button>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
