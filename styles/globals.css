@@ -136,8 +136,8 @@ p {
 @media only screen and (max-width: 600px) {
   .container button{
     width: 120px;
-    height: 50px;  
-    padding: 4px;
+    height: 70px;  
+    padding: 3px;
     font-size: 14px;
   }
 }
