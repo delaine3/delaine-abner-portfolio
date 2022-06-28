@@ -46,7 +46,7 @@ export default function SnakeGame() {
             <li id="project">NextJS</li>
           </ul>{" "}
           <a href="https://snake-game-five-dun.vercel.app/">
-            <button>Go to Delaine&rsquo;s version of the game </button>
+            <button>Go To Delaine&rsquo;s Version Of The Game </button>
           </a>
           <a href="https://github.com/delaine3/snake_game">
             <button>Go to Delaine&rsquo;s source code </button>

@@ -48,7 +48,7 @@ export default function wackAMole() {
           </ul>{" "}
           <div className="container">
             <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
-              <button>Go to Delaine&rsquo;s version of the game </button>
+              <button>Go To Delaine&rsquo;s Version Of The Game </button>
             </a>
             <a href="https://github.com/delaine3/whack_a_mole">
               <button>Go to Delaine&rsquo;s source code </button>
