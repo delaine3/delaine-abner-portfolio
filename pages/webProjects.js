@@ -196,7 +196,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/eYRNBra?editors=1010">
-                  <button> Go to codepen </button>
+                  <button> Go To Codepen </button>
                 </a>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/oNWOPyd">
-                  <button>Go to codepen</button>
+                  <button>Go To Codepen</button>
                 </a>
               </div>
             </div>
@@ -269,7 +269,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/jOmxpQd">
-                  <button> Go To Web App </button>
+                  <button> Go To Code Pen </button>
                 </a>
               </div>
             </div>
@@ -411,7 +411,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/NWdZmyW">
-                  <button> Go to website codepen</button>
+                  <button> Go To Codepen</button>
                 </a>
               </div>
             </div>
@@ -434,7 +434,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/oNBroGY">
-                  <button> Go to website codepen</button>
+                  <button> Go To Codepen</button>
                 </a>
               </div>
             </div>
