@@ -2,7 +2,7 @@
 export default function Footer() {
   return (
     <div>
-      <h1>Copyright © 2022 Delaine Abner</h1>
+      <h2>Copyright © 2022 Delaine Abner</h2>
     </div>
   );
 }
