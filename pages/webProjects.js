@@ -242,7 +242,7 @@ export default function WebProjects() {
                 <li id="project">NextJS</li>
               </ul>{" "}
               <div className="container">
-                <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
+                <a href="https://whack-a-mole-green.vercel.app/">
                   <button> Go To Web App </button>
                 </a>
                 <a href="https://github.com/delaine3/whack_a_mole">
@@ -269,7 +269,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/jOmxpQd">
-                  <button> Go To Code Pen </button>
+                  <button> Go To Codepen </button>
                 </a>
               </div>
             </div>
