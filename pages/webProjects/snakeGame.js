@@ -18,7 +18,7 @@ export default function SnakeGame() {
           left and right arrows to food withouth hitting the boundaries of the
           box. After the game is over the player is presented with a form that
           allows them to save their score. There is also a page that contains a
-          leaderboard which contains the scores of other players in descending
+          score board which contains the scores of other players in descending
           order.
         </p>{" "}
         Some of the code and ideas from my game are adapted from the following

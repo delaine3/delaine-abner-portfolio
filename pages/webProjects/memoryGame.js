@@ -18,7 +18,7 @@ export default function MemoryGame() {
           find matching tiles. They get a point every time they uncover a
           matching pair and lose half a point if their pair does not match. If
           they win the game, they can input their name and save their score. The
-          scores on the leader board are arranged alphabetically.
+          scores on the score board are arranged alphabetically.
          
             {" "}
             Some of the ideas from this game are adapted from the the following
