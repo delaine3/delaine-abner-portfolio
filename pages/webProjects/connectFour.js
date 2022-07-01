@@ -20,8 +20,7 @@ export default function ConnectFour() {
           connect 4 dots wins. If no player connects 4 dots within the alloted
           time, the game ends in a draw. The result of the game is saved upon
           completion.
-          <p>
-            <p>
+         
               {" "}
               Some of the code and or ideas from my game are adapted from the
               the following
@@ -40,7 +39,6 @@ export default function ConnectFour() {
               </a>{" "}
               is made using Vanilla Javascript and minimal css. Mine is created
               using the technologies below.
-            </p>
             <div className="center-box">
 
             <h3 className="technologies">Technologies used:</h3>
@@ -53,7 +51,6 @@ export default function ConnectFour() {
             </ul>{" "}
             </div>
           </p>
-        </p>
         <div className="container">
           <a href="https://connect-four-game.vercel.app/">
             <button>Go To Delaine&rsquo;s Version Of The Game</button>
