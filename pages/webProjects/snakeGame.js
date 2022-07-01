@@ -14,9 +14,9 @@ export default function SnakeGame() {
       <div className="project-page">
         <h1>Snake game </h1>
         <p>
-          This a snake game. The goal is to direct a snake using the up, down,
-          left and right arrows to food withouth hitting the boundaries of the
-          box. After the game is over the player is presented with a form that
+          This a snake game.The goal is to direct a snake to food using the up,
+          down, left, and right arrows, without hitting the boundaries of the
+          box. This only works with the specified key board keys. After the game is over the player is presented with a form that
           allows them to save their score. There is also a page that contains a
           score board which contains the scores of other players in descending
           order.
