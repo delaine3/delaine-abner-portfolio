@@ -391,7 +391,7 @@ export default function WebProjects() {
             <div id="project-links">
               <div>
                 <p>
-                  This is a website created using simple HTML and CSS. All
+                  This is a website. All
                   information in the paragraphs was copied verbatim from
                   <br />
                   <a
@@ -421,8 +421,7 @@ export default function WebProjects() {
             <div id="project-links">
               <div>
                 <p>
-                  This is a survey form website created using simple HTML and
-                  CSS.
+                  This is a survey form website.
                   <p>
                     <h3 className="technologies">Technologies used:</h3>
                     <ul>
