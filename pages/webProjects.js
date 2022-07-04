@@ -15,7 +15,7 @@ export default function WebProjects() {
       <div>
         <p className="blurb">
           Hi, my name is Delaine. Welcome to my portfolio. All projects listed
-          here are web projects. If you click on the  &#34;Go To Web App &#34; link of
+          here are web projects. If you click on the  &#34;Go to Web App &#34; link of
           each project you will be directed to a working version of it. It will
           most likely be hosted on Vercel. All images used are either in the
           public domain or require attribution. If attribution is required it
@@ -40,7 +40,7 @@ export default function WebProjects() {
               <div className="container">
                 <a href="https://day-dream.vercel.app/">
                   {" "}
-                  <button> Go To Web App </button>
+                  <button> Go to Web App </button>
                 </a>{" "}
                 <a href="https://github.com/delaine3/dayDream">
                   {" "}
@@ -71,7 +71,7 @@ export default function WebProjects() {
               <div className="container">
                 <a href="https://a-memory-game-seven.vercel.app/">
                   {" "}
-                  <button> Go To Web App </button>
+                  <button> Go to Web App </button>
                 </a>{" "}
                 <a href="https://github.com/delaine3/A_Memory_Game">
                   {" "}
@@ -101,7 +101,7 @@ export default function WebProjects() {
               </ul>{" "}
               <div className="container">
                 <a href="https://pantry-dusky.vercel.app/">
-                  <button>Go To Web App</button>
+                  <button>Go to Web App</button>
                 </a>
                 <a href="https://github.com/delaine3/Pantry">
                   <button>Go to Source Code</button>
@@ -146,7 +146,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a href="https://text-formatter-zeta.vercel.app/">
-                  <button> Go To Web App</button>
+                  <button> Go to Web App</button>
                 </a>
                 <a href="https://github.com/delaine3/Text_Formatter">
                   <button>Go to Source Code</button>
@@ -172,7 +172,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a href="https://calculator-mu-ten.vercel.app/">
-                  <button> Go To Web App</button>
+                  <button> Go to Web App</button>
                 </a>
 
                 <a href="https://github.com/delaine3/calculator">
@@ -196,7 +196,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/eYRNBra?editors=1010">
-                  <button> Go To Codepen </button>
+                  <button> Go to Codepen </button>
                 </a>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/oNWOPyd">
-                  <button>Go To Codepen</button>
+                  <button>Go to Codepen</button>
                 </a>
               </div>
             </div>
@@ -243,7 +243,7 @@ export default function WebProjects() {
               </ul>{" "}
               <div className="container">
                 <a href="https://whack-a-mole-green.vercel.app/">
-                  <button> Go To Web App </button>
+                  <button> Go to Web App </button>
                 </a>
                 <a href="https://github.com/delaine3/whack_a_mole">
                   <button>Go to Source Code</button>
@@ -269,7 +269,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/jOmxpQd">
-                  <button> Go To Codepen </button>
+                  <button> Go to Codepen </button>
                 </a>
               </div>
             </div>
@@ -295,7 +295,7 @@ export default function WebProjects() {
               </ul>{" "}
               <div className="container">
                 <a href="https://connect-four-game.vercel.app/">
-                  <button> Go To Web App </button>
+                  <button> Go to Web App </button>
                 </a>
                 <a href="https://github.com/delaine3/Connect_Four_Game">
                   <button>Go to Source Code</button>
@@ -324,7 +324,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://achievements-peach.vercel.app/">
-                  <button> Go To Web App </button>
+                  <button> Go to Web App </button>
                 </a>
                 <a href="https://github.com/delaine3/Achievements">
                   <button>Go to Source Code</button>
@@ -353,7 +353,7 @@ export default function WebProjects() {
               </ul>{" "}
               <div className="container">
                 <a href="https://snake-game-five-dun.vercel.app/">
-                  <button> Go To Web App</button>
+                  <button> Go to Web App</button>
                 </a>
                 <a href="https://github.com/delaine3/snake_game">
                   <button>Go to Source Code</button>
@@ -378,7 +378,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://timer-project-one.vercel.app/">
-                  <button> Go To Web App</button>
+                  <button> Go to Web App</button>
                 </a>
                 <a href="https://github.com/delaine3/timer-project">
                   <button>Go to Source Code</button>
@@ -411,7 +411,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/NWdZmyW">
-                  <button> Go To Codepen</button>
+                  <button> Go to Codepen</button>
                 </a>
               </div>
             </div>
@@ -433,7 +433,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/oNBroGY">
-                  <button> Go To Codepen</button>
+                  <button> Go to Codepen</button>
                 </a>
               </div>
             </div>

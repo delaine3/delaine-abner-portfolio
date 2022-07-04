@@ -30,7 +30,7 @@ export default function Index() {
             </ul>{" "}
             <Link href="/webProjects">
               <a>
-                <button>Go To Web Apps</button>
+                <button>Go to Web Apps</button>
               </a>
             </Link>
           </div>
@@ -49,7 +49,7 @@ export default function Index() {
             <Link href="/certificates">
               <a>
                 {" "}
-                <button>Go To Certificates</button>
+                <button>Go to Certificates</button>
               </a>
             </Link>
           </div>
