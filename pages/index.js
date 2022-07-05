@@ -4,6 +4,11 @@ import Link from "next/link";
 
 //This is a function that displays my web apps
 export default function Index() {
+  const resumeStyle = {
+    color: "blue",
+    lineHeight: 10,
+    padding: "1.5em",
+  };
   return (
     <div>
       <Head>
@@ -19,7 +24,7 @@ export default function Index() {
             <h3>Web Apps</h3>
             <p>
               These are projects that I have worked on. They are built using a
-              combination of the following technologies.{" "}
+              combination of the following technologies:{" "}
             </p>
             <ul>
               <li id="project">MongoDB</li>
@@ -38,7 +43,7 @@ export default function Index() {
             <h3>Certificates</h3>
             <p>
               These are the certificates I have attained thus far. They concern
-              the following technologies.
+              the following technologies:
             </p>
             <ul>
               <li id="project">C#</li>
@@ -53,6 +58,18 @@ export default function Index() {
               </a>
             </Link>
           </div>
+          <iframe
+            title="Delaine Abner - Resume (3)"
+            src="https://www.scribd.com/embeds/581278965/content?start_page=1&view_mode=scroll&access_key=key-DVAWH5v61sAVMZD3L2eT"
+            tabindex="0"
+            data-auto-height="true"
+            data-aspect-ratio="0.7729220222793488"
+            scrolling="no"
+            width="100%"
+            height="600"
+            frameborder="0"
+          ></iframe>
+        
         </div>
       </div>
     </div>

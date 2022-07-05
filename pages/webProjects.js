@@ -395,9 +395,7 @@ export default function WebProjects() {
               <div>
                 <p>
                   This is a website. All information in the paragraphs was
-                  copied verbatim from
-                  <br />
-                  <a href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/"
+                  copied verbatim from <a href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/"
                   >
                     this website
                   </a>
