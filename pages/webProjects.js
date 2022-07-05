@@ -398,7 +398,7 @@ export default function WebProjects() {
                   copied verbatim from <a href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/"
                   >
                     this website
-                  </a>
+                  </a>.
                   <p>
                     <h3 className="technologies">Technologies used:</h3>
                     <ul>
