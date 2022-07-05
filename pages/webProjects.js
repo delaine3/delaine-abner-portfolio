@@ -26,7 +26,7 @@ export default function WebProjects() {
             <h2 className="project-name">Story Book </h2>
             <div id="project-links">
               <p>
-                This app allows you to create and save characters, plots, and
+                This app allows you to create and save characters and plots, as well as
                 perform writing excercises through helpful prompts.
               </p>
               <h3 className="technologies">Technologies used:</h3>
@@ -54,7 +54,7 @@ export default function WebProjects() {
             <div id="project-links">
               <p>
                 Click on the button below to find out more about the
-                application, its functions and any attribution associated with
+                application, its functions, and any attribution associated with
                 it.
               </p>
               <Link href="webProjects\memoryGame">
@@ -85,7 +85,7 @@ export default function WebProjects() {
             <div id="project-links">
               <p>
                 Click on the button below to find out more about the
-                application, its functions and any attribution associated with
+                application, its functions, and any attribution associated with
                 it.
               </p>
               <Link href="webProjects\pantry">
@@ -230,7 +230,7 @@ export default function WebProjects() {
             <div id="project-links">
               <p>
                 Click on the button below to find out more about the
-                application, its functions and any attribution associated with
+                application, its functions, and any attribution associated with
                 it.
               </p>
               <Link href="/webProjects\wackAMole">
@@ -282,7 +282,7 @@ export default function WebProjects() {
             <div id="project-links">
               <p>
                 Click on the button below to find out more about the
-                application, its functions and any attribution associated with
+                application, its functions, and any attribution associated with
                 it.
               </p>
               <Link href="/webProjects\connectFour">
@@ -340,7 +340,7 @@ export default function WebProjects() {
             <div id="project-links">
               <p>
                 Click on the button below to find out more about the
-                application, its functions and any attribution associated with
+                application, its functions, and any attribution associated with
                 it.
               </p>
               <Link href="/webProjects\snakeGame">
