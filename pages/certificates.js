@@ -37,6 +37,16 @@ export default function Certificates() {
             </a>
           </li>
           <li className="certificate-list">
+            <a href="https://www.educative.io/verify-certificate/487B21tm2wvNQWy8ruNEvA2ynyZJuG">
+              Kubernetes in Practice
+              <img
+                src="https://i.ibb.co/tM6yY2f/Kubernetes-in-Practice.png"
+                alt="Kubernetes-in-Practice"
+                border="0"
+              />
+            </a>
+          </li>
+          <li className="certificate-list">
             <a
               alt="MongoDB: The Complete Guide"
               href="https://www.educative.io/verify-certificate/O8NM6428nOwI0xAXQR7725cjox2m3Q3DKTB"
