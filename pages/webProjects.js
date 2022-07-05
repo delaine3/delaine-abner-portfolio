@@ -15,7 +15,7 @@ export default function WebProjects() {
       <div>
         <p className="blurb">
           Hi, my name is Delaine. Welcome to my portfolio. All projects listed
-          here are web projects. If you click on the &#34;Go to Web App &#34;
+          here are web projects. If you click on the &#34;Go to Web App&#34;
           link of each project you will be directed to a working version of it.
           It will most likely be hosted on Vercel. All images used are either in
           the public domain or require attribution. If attribution is required
