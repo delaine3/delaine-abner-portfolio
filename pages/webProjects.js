@@ -15,11 +15,11 @@ export default function WebProjects() {
       <div>
         <p className="blurb">
           Hi, my name is Delaine. Welcome to my portfolio. All projects listed
-          here are web projects. If you click on the  &#34;Go to Web App &#34; link of
-          each project you will be directed to a working version of it. It will
-          most likely be hosted on Vercel. All images used are either in the
-          public domain or require attribution. If attribution is required it
-          will be visible in the page in which the image is used.
+          here are web projects. If you click on the &#34;Go to Web App &#34;
+          link of each project you will be directed to a working version of it.
+          It will most likely be hosted on Vercel. All images used are either in
+          the public domain or require attribution. If attribution is required
+          it will be visible in the page in which the image is used.
         </p>
         <ul className="grid">
           <li className="project-list">
@@ -195,8 +195,11 @@ export default function WebProjects() {
                 </p>
               </p>
               <div className="container">
-                <a href="https://codepen.io/Delaine/pen/eYRNBra?editors=1010">
-                  <button> Go to Codepen </button>
+                <a href="https://drum-machine-app-ten.vercel.app/">
+                  <button> Go to Web App </button>
+                </a>
+                <a href="https://github.com/delaine3/Drum-Machine-App">
+                  <button>Go to Source Code</button>
                 </a>
               </div>
             </div>
@@ -391,12 +394,10 @@ export default function WebProjects() {
             <div id="project-links">
               <div>
                 <p>
-                  This is a website. All
-                  information in the paragraphs was copied verbatim from
+                  This is a website. All information in the paragraphs was
+                  copied verbatim from
                   <br />
-                  <a
-                    href="                      https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/
-"
+                  <a href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/"
                   >
                     this website
                   </a>
