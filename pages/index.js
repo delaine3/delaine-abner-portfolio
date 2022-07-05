@@ -4,11 +4,7 @@ import Link from "next/link";
 
 //This is a function that displays my web apps
 export default function Index() {
-  const resumeStyle = {
-    color: "blue",
-    lineHeight: 10,
-    padding: "1.5em",
-  };
+
   return (
     <div>
       <Head>
@@ -58,17 +54,6 @@ export default function Index() {
               </a>
             </Link>
           </div>
-          <iframe
-            title="Delaine Abner - Resume (3)"
-            src="https://www.scribd.com/embeds/581278965/content?start_page=1&view_mode=scroll&access_key=key-DVAWH5v61sAVMZD3L2eT"
-            tabIndex="0"
-            data-auto-height="true"
-            data-aspect-ratio="0.7729220222793488"
-            scrolling="no"
-            width="100%"
-            height="600"
-            frameBorder="0"
-          ></iframe>
         
         </div>
       </div>
