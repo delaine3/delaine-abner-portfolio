@@ -47,14 +47,12 @@ export default function Certificates() {
             </a>
           </li>
           <li className="certificate-list">
-            <a
-              alt="MongoDB: The Complete Guide"
-              href="https://www.educative.io/verify-certificate/O8NM6428nOwI0xAXQR7725cjox2m3Q3DKTB"
-            >
-              MongoDB The complete Guide
+            <a href="https://www.educative.io/verify-certificate/zBQvGLJxEmRsxGDQKMXmm3CMm8qYO9Oyli7">
+            Mastering Regular Expressions in Java
+
               <img
-                src="https://i.ibb.co/K7dbL9c/Mongo.png"
-                alt="Mongo"
+                src="https://i.ibb.co/rFfjnyB/Mastering-Regular-Expressions-in-Java.png"
+                alt="Mastering-Regular-Expressions-in-Java"
                 border="0"
               />
             </a>
@@ -75,6 +73,19 @@ export default function Certificates() {
               <img
                 src="https://i.ibb.co/TwfYkj5/The-Detailed-Workings-of-AWS-S3.png"
                 alt="The-Detailed-Workings-of-AWS-S3"
+                border="0"
+              />
+            </a>
+          </li>
+          <li className="certificate-list">
+            <a
+              alt="MongoDB: The Complete Guide"
+              href="https://www.educative.io/verify-certificate/O8NM6428nOwI0xAXQR7725cjox2m3Q3DKTB"
+            >
+              MongoDB The complete Guide
+              <img
+                src="https://i.ibb.co/K7dbL9c/Mongo.png"
+                alt="Mongo"
                 border="0"
               />
             </a>
