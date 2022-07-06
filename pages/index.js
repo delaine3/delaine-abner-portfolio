@@ -45,6 +45,8 @@ export default function Index() {
               <li id="project">C#</li>
               <li id="project">Javascript</li>
               <li id="project">AWS</li>
+              <li id="project">Java</li>
+              <li id="project">Kubernetes</li>
               <li id="project">MongoDB</li>
             </ul>
             <Link href="/certificates">
