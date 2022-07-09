@@ -29,6 +29,8 @@ export default function WebProjects() {
                 This app allows you to create and save characters and plots, as well as
                 perform writing excercises through helpful prompts.
               </p>
+              <br/>
+
               <h3 className="technologies">Technologies used:</h3>
               <ul>
                 <li id="project">MongoDB</li>
@@ -37,7 +39,6 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">NextJS</li>
               </ul>{" "}
-              <br/>
               <br/>
 
               <div className="container">
@@ -122,6 +123,10 @@ export default function WebProjects() {
               <p>
                 This is the site that you are currently on.
                 <p>
+                <br/>
+              <br/>
+              <br/>
+              <br/>
                   <h3 className="technologies">Technologies used:</h3>
                   <ul>
                     <li id="project">React</li>
@@ -131,11 +136,7 @@ export default function WebProjects() {
               </p>{" "}
               <br/>
               <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              
+                         
               <br/>
               <div className="container">
                 <a href="https://github.com/delaine3/delaine-abner-portfolio">
