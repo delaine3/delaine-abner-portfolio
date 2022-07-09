@@ -26,11 +26,10 @@ export default function WebProjects() {
             <h2 className="project-name">Story Book </h2>
             <div id="project-links">
               <p>
-                This app allows you to create and save characters and plots, as well as
-                perform writing excercises through helpful prompts.
+                This app allows you to create and save characters and plots, as
+                well as perform writing excercises through helpful prompts.
               </p>
-              <br/>
-
+              <br />
               <h3 className="technologies">Technologies used:</h3>
               <ul>
                 <li id="project">MongoDB</li>
@@ -39,16 +38,23 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">NextJS</li>
               </ul>{" "}
-              <br/>
-
+              <br />
               <div className="container">
                 <a href="https://day-dream.vercel.app/">
                   {" "}
-                  <button> Go to <br/>Web App </button>
+                  <button>
+                    {" "}
+                    Go to <br />
+                    Web App{" "}
+                  </button>
                 </a>{" "}
                 <a href="https://github.com/delaine3/dayDream">
                   {" "}
-                  <button> Go to <br/>Source Code</button>
+                  <button>
+                    {" "}
+                    Go to <br />
+                    Source Code
+                  </button>
                 </a>
               </div>
             </div>
@@ -72,16 +78,23 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">NextJS</li>
               </ul>{" "}
-              <br/>
-
+              <br />
               <div className="container">
                 <a href="https://a-memory-game-seven.vercel.app/">
                   {" "}
-                  <button> Go to <br/>Web App </button>
+                  <button>
+                    {" "}
+                    Go to <br />
+                    Web App{" "}
+                  </button>
                 </a>{" "}
                 <a href="https://github.com/delaine3/A_Memory_Game">
                   {" "}
-                  <button> Go to<br/> Source Code</button>
+                  <button>
+                    {" "}
+                    Go to
+                    <br /> Source Code
+                  </button>
                 </a>
               </div>
             </div>
@@ -105,14 +118,19 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">NextJS</li>
               </ul>{" "}
-              <br/>
-
+              <br />
               <div className="container">
                 <a href="https://pantry-dusky.vercel.app/">
-                  <button>Go to<br/> Web App</button>
+                  <button>
+                    Go to
+                    <br /> Web App
+                  </button>
                 </a>
                 <a href="https://github.com/delaine3/Pantry">
-                  <button>Go to<br/> Source Code</button>
+                  <button>
+                    Go to
+                    <br /> Source Code
+                  </button>
                 </a>
               </div>
             </div>
@@ -123,10 +141,7 @@ export default function WebProjects() {
               <p>
                 This is the site that you are currently on.
                 <p>
-                <br/>
-              <br/>
-              <br/>
-              <br/>
+             
                   <h3 className="technologies">Technologies used:</h3>
                   <ul>
                     <li id="project">React</li>
@@ -134,10 +149,7 @@ export default function WebProjects() {
                   </ul>{" "}
                 </p>
               </p>{" "}
-              <br/>
-              <br/>
-                         
-              <br/>
+        
               <div className="container">
                 <a href="https://github.com/delaine3/delaine-abner-portfolio">
                   {" "}
@@ -233,15 +245,7 @@ export default function WebProjects() {
                   </ul>{" "}
                 </p>
               </p>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
 
-              <br/>
-              <br/>
-              <br/>
               <div className="container">
                 <a href="https://codepen.io/Delaine/pen/oNWOPyd">
                   <button>Go to Codepen</button>
@@ -420,10 +424,11 @@ export default function WebProjects() {
               <div>
                 <p>
                   This is a website. All information in the paragraphs was
-                  copied verbatim from <a href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/"
-                  >
+                  copied verbatim from{" "}
+                  <a href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/">
                     this website
-                  </a>.
+                  </a>
+                  .
                   <p>
                     <h3 className="technologies">Technologies used:</h3>
                     <ul>
