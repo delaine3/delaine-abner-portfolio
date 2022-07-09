@@ -43,11 +43,11 @@ export default function WebProjects() {
               <div className="container">
                 <a href="https://day-dream.vercel.app/">
                   {" "}
-                  <button> Go to Web App </button>
+                  <button> Go to <br/>Web App </button>
                 </a>{" "}
                 <a href="https://github.com/delaine3/dayDream">
                   {" "}
-                  <button> Go to Source Code</button>
+                  <button> Go to <br/>Source Code</button>
                 </a>
               </div>
             </div>
@@ -76,11 +76,11 @@ export default function WebProjects() {
               <div className="container">
                 <a href="https://a-memory-game-seven.vercel.app/">
                   {" "}
-                  <button> Go to Web App </button>
+                  <button> Go to <br/>Web App </button>
                 </a>{" "}
                 <a href="https://github.com/delaine3/A_Memory_Game">
                   {" "}
-                  <button> Go to Source Code</button>
+                  <button> Go to<br/> Source Code</button>
                 </a>
               </div>
             </div>
@@ -108,10 +108,10 @@ export default function WebProjects() {
 
               <div className="container">
                 <a href="https://pantry-dusky.vercel.app/">
-                  <button>Go to Web App</button>
+                  <button>Go to<br/> Web App</button>
                 </a>
                 <a href="https://github.com/delaine3/Pantry">
-                  <button>Go to Source Code</button>
+                  <button>Go to<br/> Source Code</button>
                 </a>
               </div>
             </div>

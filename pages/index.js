@@ -33,7 +33,7 @@ export default function Index() {
 
             <Link href="/webProjects">
               <a>
-                <button>Go to Web Apps</button>
+                <button>Go to <br/> Web Apps</button>
               </a>
             </Link>
             </div>
