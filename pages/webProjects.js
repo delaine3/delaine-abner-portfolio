@@ -39,7 +39,6 @@ export default function WebProjects() {
               </ul>{" "}
               <br/>
               <br/>
-              <br/>
 
               <div className="container">
                 <a href="https://day-dream.vercel.app/">
@@ -73,7 +72,6 @@ export default function WebProjects() {
                 <li id="project">NextJS</li>
               </ul>{" "}
               <br/>
-              <br/>
 
               <div className="container">
                 <a href="https://a-memory-game-seven.vercel.app/">
@@ -106,7 +104,6 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">NextJS</li>
               </ul>{" "}
-              <br/>
               <br/>
 
               <div className="container">

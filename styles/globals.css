@@ -112,7 +112,7 @@ button {
   min-width: fit-content;
   padding: 1.9px;
   text-shadow: none;
-  margin-left: 5px;
+  margin: 2px;
   background-color: #ffffffbd;
   color: #09537e;
   border-radius: 10px;
@@ -130,7 +130,6 @@ p {
 }
 .container {
   min-width: min-content;
-  display: flex;
   align-items: center;
   justify-content: center;
   padding: 2px;
