@@ -48,8 +48,7 @@ export default function Certificates() {
           </li>
           <li className="certificate-list">
             <a href="https://www.educative.io/verify-certificate/zBQvGLJxEmRsxGDQKMXmm3CMm8qYO9Oyli7">
-            Mastering Regular Expressions in Java
-
+              Mastering Regular Expressions in Java
               <img
                 src="https://i.ibb.co/rFfjnyB/Mastering-Regular-Expressions-in-Java.png"
                 alt="Mastering-Regular-Expressions-in-Java"

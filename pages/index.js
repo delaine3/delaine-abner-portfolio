@@ -4,7 +4,6 @@ import Link from "next/link";
 
 //This is a function that displays my web apps
 export default function Index() {
-
   return (
     <div>
       <Head>
@@ -30,12 +29,13 @@ export default function Index() {
               <li id="project">NodeJS</li>
             </ul>{" "}
             <div className="container">
-
-            <Link href="/webProjects">
-              <a>
-                <button>Go to <br/> Web Apps</button>
-              </a>
-            </Link>
+              <Link href="/webProjects">
+                <a>
+                  <button>
+                    Go to <br /> Web Apps
+                  </button>
+                </a>
+              </Link>
             </div>
           </div>
           <div id="certificates-index">
@@ -53,16 +53,14 @@ export default function Index() {
               <li id="project">MongoDB</li>
             </ul>
             <div className="container">
-
-            <Link href="/certificates">
-              <a>
-                {" "}
-                <button>Go to Certificates</button>
-              </a>
-            </Link>
+              <Link href="/certificates">
+                <a>
+                  {" "}
+                  <button>Go to Certificates</button>
+                </a>
+              </Link>
             </div>
           </div>
-        
         </div>
       </div>
     </div>

@@ -33,11 +33,11 @@ export default function Pantry() {
         <div className="container">
           <a href="https://pantry-dusky.vercel.app/">
             {" "}
-            <button>Go to Web App </button>
+            <button>Go to <br/>Web App </button>
           </a>{" "}
           <a href="https://github.com/delaine3/Pantry">
             {" "}
-            <button>Source Code </button>
+            <button>Go to <br/>Source Code </button>
           </a>
         </div>
         </div>
