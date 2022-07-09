@@ -37,6 +37,10 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">NextJS</li>
               </ul>{" "}
+              <br/>
+              <br/>
+              <br/>
+
               <div className="container">
                 <a href="https://day-dream.vercel.app/">
                   {" "}
@@ -68,6 +72,9 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">NextJS</li>
               </ul>{" "}
+              <br/>
+              <br/>
+
               <div className="container">
                 <a href="https://a-memory-game-seven.vercel.app/">
                   {" "}
@@ -99,6 +106,9 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">NextJS</li>
               </ul>{" "}
+              <br/>
+              <br/>
+
               <div className="container">
                 <a href="https://pantry-dusky.vercel.app/">
                   <button>Go to Web App</button>
@@ -122,6 +132,15 @@ export default function WebProjects() {
                   </ul>{" "}
                 </p>
               </p>{" "}
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              
+              <br/>
               <div className="container">
                 <a href="https://github.com/delaine3/delaine-abner-portfolio">
                   {" "}
