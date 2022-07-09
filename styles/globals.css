@@ -42,7 +42,9 @@ body {
   margin: auto;
   width: 100%;
 }
-
+.certificate-list{
+  margin: 15px;
+}
 .tile-list {
   display: flex;
   flex-wrap: wrap;
@@ -267,7 +269,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
   list-style-type: none;
   overflow: hidden;
 }

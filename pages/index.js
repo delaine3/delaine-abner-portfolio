@@ -29,11 +29,14 @@ export default function Index() {
               <li id="project">NextJS</li>
               <li id="project">NodeJS</li>
             </ul>{" "}
+            <div className="container">
+
             <Link href="/webProjects">
               <a>
                 <button>Go to Web Apps</button>
               </a>
             </Link>
+            </div>
           </div>
           <div id="certificates-index">
             <h3>Certificates</h3>
@@ -49,12 +52,15 @@ export default function Index() {
               <li id="project">Kubernetes</li>
               <li id="project">MongoDB</li>
             </ul>
+            <div className="container">
+
             <Link href="/certificates">
               <a>
                 {" "}
                 <button>Go to Certificates</button>
               </a>
             </Link>
+            </div>
           </div>
         
         </div>
