@@ -17,7 +17,13 @@ export default function wackAMole() {
           This a timed Whack a Mole game. Players are given a minute to wack as
           many moles as they can. During the game they may pause and resume the
           game. After the game is over they are presented with a form that
-          allows them to save their progress.{" "}
+          allows them to save their progress.This app is created with the help
+          of an official Next.js example titled:{" "}
+          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+            {" "}
+            MongoDB and Mongoose With Next.js
+          </a>
+          .
         </p>
         <p>
           {" "}
@@ -42,16 +48,22 @@ export default function wackAMole() {
           <ul>
             <li id="project">MongoDB</li>
             <li id="project">Express</li>
-            <li id="project">ReactJS</li>
+            <li id="project">React</li>
             <li id="project">NodeJS</li>
-            <li id="project">NextJS</li>
+            <li id="project">Next.js</li>
           </ul>{" "}
           <div className="container">
             <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
-              <button>Go to Delaine&rsquo;s<br/> Version of the Game </button>
+              <button>
+                Go to Delaine&rsquo;s
+                <br /> Version of the Game{" "}
+              </button>
             </a>
             <a href="https://github.com/delaine3/whack_a_mole">
-              <button>Go to Delaine&rsquo;s <br/>Source code </button>
+              <button>
+                Go to Delaine&rsquo;s <br />
+                Source code{" "}
+              </button>
             </a>
           </div>
         </div>

@@ -19,44 +19,52 @@ export default function ConnectFour() {
           dots in a vertical, horizontal or diagonal line. The first player to
           connect 4 dots wins. If no player connects 4 dots within the alloted
           time, the game ends in a draw. The result of the game is saved upon
-          completion.
-         
-              {" "}
-              This app is created with the help of an official NextJS example called: &rsquo;sMongoDB and Mongoose With Next.js&rsquo;s. Some of the code and or ideas from my game are adapted from the
-              the following
-              <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                FreeCodeCamp Tutorial Video.
-              </a>{" "}
-              You can find the original source code of this tutorial in the
-              following
-              <a href="https://github.com/kubowania/connect-four">
-                Github repo
-              </a>{" "}
-              The original source contains an MIT license which allows anyone to
-              use it. The game in the{" "}
-              <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                FreeCodeCamp Tutorial Video
-              </a>{" "}
-              is made using Vanilla Javascript and minimal css. Mine is created
-              using the technologies below.
-            <div className="center-box">
-
+          completion. This app is created with the help of an official Next.js
+          example titled:{" "}
+          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+            {" "}
+           MongoDB and Mongoose With Next.js
+          </a>
+          . Some of the code and or ideas from my game are adapted from the the
+          following
+          <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+            FreeCodeCamp Tutorial Video.
+          </a>{" "}
+          You can find the original source code of this tutorial in the
+          following
+          <a href="https://github.com/kubowania/connect-four">
+            Github repo
+          </a>{" "}
+          The original source contains an MIT license which allows anyone to use
+          it. The game in the{" "}
+          <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+            FreeCodeCamp Tutorial Video
+          </a>{" "}
+          is made using Vanilla Javascript and minimal css. Mine is created
+          using the technologies below.
+          <div className="center-box">
             <h3 className="technologies">Technologies used:</h3>
             <ul>
               <li id="project">MongoDB</li>
               <li id="project">Express</li>
-              <li id="project">ReactJS</li>
+              <li id="project">React</li>
               <li id="project">NodeJS</li>
-              <li id="project">NextJS</li>
+              <li id="project">Next.js</li>
             </ul>{" "}
-            </div>
-          </p>
+          </div>
+        </p>
         <div className="container">
           <a href="https://connect-four-game.vercel.app/">
-            <button>Go to Delaine&rsquo;s <br/> Version of the Game</button>
+            <button>
+              Go to Delaine&rsquo;s <br /> Version of the Game
+            </button>
           </a>
           <a href="https://github.com/delaine3/Connect_Four_Game">
-            <button> Go to Delaine&rsquo;s <br/>Source Code </button>
+            <button>
+              {" "}
+              Go to Delaine&rsquo;s <br />
+              Source Code{" "}
+            </button>
           </a>
         </div>
       </div>

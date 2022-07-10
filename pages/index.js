@@ -24,8 +24,8 @@ export default function Index() {
             <ul>
               <li id="project">MongoDB</li>
               <li id="project">Express</li>
-              <li id="project">ReactJS</li>
-              <li id="project">NextJS</li>
+              <li id="project">React</li>
+              <li id="project">Next.js</li>
               <li id="project">NodeJS</li>
             </ul>{" "}
             <div className="container">

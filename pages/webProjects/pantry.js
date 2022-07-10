@@ -14,32 +14,44 @@ export default function Pantry() {
       <div className="project-page">
         <h1>Pantry</h1>
         <p>
-          This app allows you to create a shopping list aswell as take
-          inventory of your current food supply. This app also lets you know
-          which foods are expired and which foods are near expiration. It is
-          seperated into 2 tabs: shopping list and pantry. For both the shopping
-          list and pantry sections, you can add food into your list by filling
-          out a form. Please click on the button below to view and use the app.
-          </p><div className="center-box">
-          <h3 className="technologies">Technologies used:</h3>
-            <ul>
-              <li id="project">MongoDB</li>
-              <li id="project">Express</li>
-              <li id="project">ReactJS</li>
-              <li id="project">NodeJS</li>
-              <li id="project">NextJS</li>
-            </ul>{" "}
-        
-        <div className="container">
-          <a href="https://pantry-dusky.vercel.app/">
+          This app allows you to create a shopping list aswell as take inventory
+          of your current food supply. This app also lets you know which foods
+          are expired and which foods are near expiration. It is seperated into
+          2 tabs: shopping list and pantry. For both the shopping list and
+          pantry sections, you can add food into your list by filling out a
+          form. Please click on the button below to view and use the app.
+        </p>This app is created with the help of an official Next.js
+          example titled:{" "}
+          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
             {" "}
-            <button>Go to <br/>Web App </button>
-          </a>{" "}
-          <a href="https://github.com/delaine3/Pantry">
-            {" "}
-            <button>Go to <br/>Source Code </button>
+           MongoDB and Mongoose With Next.js
           </a>
-        </div>
+          .
+        <div className="center-box">
+          <h3 className="technologies">Technologies used:</h3>
+          <ul>
+            <li id="project">MongoDB</li>
+            <li id="project">Express</li>
+            <li id="project">React</li>
+            <li id="project">NodeJS</li>
+            <li id="project">Next.js</li>
+          </ul>{" "}
+          <div className="container">
+            <a href="https://pantry-dusky.vercel.app/">
+              {" "}
+              <button>
+                Go to <br />
+                Web App{" "}
+              </button>
+            </a>{" "}
+            <a href="https://github.com/delaine3/Pantry">
+              {" "}
+              <button>
+                Go to <br />
+                Source Code{" "}
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

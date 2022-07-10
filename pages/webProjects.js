@@ -19,8 +19,13 @@ export default function WebProjects() {
           link of each project you will be directed to a working version of it.
           It will most likely be hosted on Vercel. All images used are either in
           the public domain or require attribution. If attribution is required
-          it will be visible in the page in which the image is used. All
-          projects are currently a work in progress.
+          it will be visible in the page in which the image is used. The Next.js
+          apps are created with the help of an official Next.js example titled:{" "}
+          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+            {" "}
+            MongoDB and Mongoose With Next.js
+          </a>
+          . All projects are currently a work in progress.
         </p>
         <ul className="grid">
           <li className="project-list">
@@ -35,9 +40,9 @@ export default function WebProjects() {
               <ul>
                 <li id="project">MongoDB</li>
                 <li id="project">Express</li>
-                <li id="project">ReactJS</li>
+                <li id="project">React</li>
                 <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
+                <li id="project">Next.js</li>
               </ul>{" "}
               <br />
               <div className="container">
@@ -75,9 +80,9 @@ export default function WebProjects() {
               <ul>
                 <li id="project">MongoDB</li>
                 <li id="project">Express</li>
-                <li id="project">ReactJS</li>
+                <li id="project">React</li>
                 <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
+                <li id="project">Next.js</li>
               </ul>{" "}
               <br />
               <div className="container">
@@ -115,9 +120,9 @@ export default function WebProjects() {
               <ul>
                 <li id="project">MongoDB</li>
                 <li id="project">Express</li>
-                <li id="project">ReactJS</li>
+                <li id="project">React</li>
                 <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
+                <li id="project">Next.js</li>
               </ul>{" "}
               <br />
               <div className="container">
@@ -145,7 +150,7 @@ export default function WebProjects() {
                   <h3 className="technologies">Technologies used:</h3>
                   <ul>
                     <li id="project">React</li>
-                    <li id="project">NextJS</li>
+                    <li id="project">Next.js</li>
                   </ul>{" "}
                 </p>
               </p>{" "}
@@ -170,7 +175,7 @@ export default function WebProjects() {
                 <p>
                   <h3 className="technologies">Technologies used:</h3>
                   <ul>
-                    <li id="project">ReactJS</li>
+                    <li id="project">React</li>
                   </ul>
                 </p>
               </p>
@@ -201,9 +206,9 @@ export default function WebProjects() {
                   <h3 className="technologies">Technologies used:</h3>
                   <ul>
                     <li id="project">Express</li>
-                    <li id="project">ReactJS</li>
+                    <li id="project">React</li>
                     <li id="project">Redux</li>
-                    <li id="project">NextJS</li>
+                    <li id="project">Next.js</li>
                   </ul>{" "}
                 </p>
               </p>
@@ -295,9 +300,9 @@ export default function WebProjects() {
               <ul>
                 <li id="project">MongoDB</li>
                 <li id="project">Express</li>
-                <li id="project">ReactJS</li>
+                <li id="project">React</li>
                 <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
+                <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
                 <a href="https://whack-a-mole-green.vercel.app/">
@@ -358,9 +363,9 @@ export default function WebProjects() {
               <ul>
                 <li id="project">MongoDB</li>
                 <li id="project">Express</li>
-                <li id="project">ReactJS</li>
+                <li id="project">React</li>
                 <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
+                <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
                 <a href="https://connect-four-game.vercel.app/">
@@ -391,9 +396,9 @@ export default function WebProjects() {
                     <ul>
                       <li id="project">MongoDB</li>
                       <li id="project">Express</li>
-                      <li id="project">ReactJS</li>
+                      <li id="project">React</li>
                       <li id="project">NodeJS</li>
-                      <li id="project">NextJS</li>
+                      <li id="project">Next.js</li>
                     </ul>{" "}
                   </p>
                 </p>
@@ -430,9 +435,9 @@ export default function WebProjects() {
               <ul>
                 <li id="project">MongoDB</li>
                 <li id="project">Express</li>
-                <li id="project">ReactJS</li>
+                <li id="project">React</li>
                 <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
+                <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
                 <a href="https://snake-game-five-dun.vercel.app/">

@@ -16,10 +16,16 @@ export default function SnakeGame() {
         <p>
           This a snake game.The goal is to direct a snake to food using the up,
           down, left, and right arrows, without hitting the boundaries of the
-          box. This only works with the specified key board keys. After the game is over the player is presented with a form that
-          allows them to save their score. There is also a page that contains a
-          score board which contains the scores of other players in descending
-          order.
+          box. This only works with the specified key board keys. After the game
+          is over the player is presented with a form that allows them to save
+          their score. There is also a page that contains a score board which
+          contains the scores of other players in descending order.This app is
+          created with the help of an official Next.js example titled:{" "}
+          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+            {" "}
+            MongoDB and Mongoose With Next.js
+          </a>
+          .
         </p>{" "}
         Some of the code and ideas from my game are adapted from the following
         <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
@@ -41,15 +47,21 @@ export default function SnakeGame() {
           <ul>
             <li id="project">MongoDB</li>
             <li id="project">Express</li>
-            <li id="project">ReactJS</li>
+            <li id="project">React</li>
             <li id="project">NodeJS</li>
-            <li id="project">NextJS</li>
+            <li id="project">Next.js</li>
           </ul>{" "}
           <a href="https://snake-game-five-dun.vercel.app/">
-            <button>Go to Delaine&rsquo;s <br/>Version of the Game </button>
+            <button>
+              Go to Delaine&rsquo;s <br />
+              Version of the Game{" "}
+            </button>
           </a>
           <a href="https://github.com/delaine3/snake_game">
-            <button>Go to Delaine&rsquo;s <br/>Source Code </button>
+            <button>
+              Go to Delaine&rsquo;s <br />
+              Source Code{" "}
+            </button>
           </a>
         </div>
       </div>
