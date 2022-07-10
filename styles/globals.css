@@ -64,6 +64,7 @@ body {
   box-shadow: #ff3cef 1px 1px 10px;
   background-color: #ffffffa8;
   border-radius: 16px;
+  font-size: large;
 }
 nav {
   display: inline;
@@ -258,7 +259,7 @@ width: 150px;
   align-items: center;
   min-width: min-content;
   padding: 25px;
-  width: 300px;
+  width: 330px;
   height: 400px;
   border: 1.25px solid rgba(36, 85, 199, 0.568);
   border-radius: 16px;

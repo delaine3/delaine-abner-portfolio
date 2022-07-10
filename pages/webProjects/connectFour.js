@@ -22,7 +22,7 @@ export default function ConnectFour() {
           completion.
          
               {" "}
-              Some of the code and or ideas from my game are adapted from the
+              This app is created with the help of an official NextJS example called: &rsquo;sMongoDB and Mongoose With Next.js&rsquo;s. Some of the code and or ideas from my game are adapted from the
               the following
               <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
                 FreeCodeCamp Tutorial Video.
