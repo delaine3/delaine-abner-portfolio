@@ -19,7 +19,8 @@ export default function WebProjects() {
           link of each project you will be directed to a working version of it.
           It will most likely be hosted on Vercel. All images used are either in
           the public domain or require attribution. If attribution is required
-          it will be visible in the page in which the image is used.
+          it will be visible in the page in which the image is used. All
+          projects are currently a work in progress.
         </p>
         <ul className="grid">
           <li className="project-list">
@@ -144,7 +145,7 @@ export default function WebProjects() {
                   <h3 className="technologies">Technologies used:</h3>
                   <ul>
                     <li id="project">React</li>
-                    <li id="project">Next JS</li>
+                    <li id="project">NextJS</li>
                   </ul>{" "}
                 </p>
               </p>{" "}
