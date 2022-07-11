@@ -338,12 +338,18 @@ export default function WebProjects() {
                 </p>
               </div>
               <div className="container">
-                <a href="https://codepen.io/Delaine/pen/jOmxpQd">
+                <a href="https://random-quote-generator-nu.vercel.app/">
                   <button>
                     {" "}
                     Go to <br />
-                    Codepen{" "}
+                    Web App{" "}
                   </button>
+                  <a href="https://github.com/delaine3/Random-Quote-Generator">
+                  <button>
+                    Go to <br />
+                    Source Code
+                  </button>
+                </a>
                 </a>
               </div>
             </div>
@@ -384,42 +390,7 @@ export default function WebProjects() {
               </div>
             </div>
           </li>
-          <li className="project-list">
-            <h2 className="project-name">Achievement Tracker </h2>
-            <div id="project-links">
-              <div>
-                <p>
-                  This app allows you to input and save your daily achievements
-                  to keep you motivated.
-                  <p>
-                    <h3 className="technologies">Technologies used:</h3>
-                    <ul>
-                      <li id="project">MongoDB</li>
-                      <li id="project">Express</li>
-                      <li id="project">React</li>
-                      <li id="project">NodeJS</li>
-                      <li id="project">Next.js</li>
-                    </ul>{" "}
-                  </p>
-                </p>
-              </div>
-              <div className="container">
-                <a href="https://achievements-peach.vercel.app/">
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App{" "}
-                  </button>
-                </a>
-                <a href="https://github.com/delaine3/Achievements">
-                  <button>
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
+
           <li className="project-list">
             <h2 className="project-name">Snake Game </h2>
             <div id="project-links">
