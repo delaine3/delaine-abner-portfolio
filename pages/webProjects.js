@@ -35,7 +35,6 @@ export default function WebProjects() {
                 This app allows you to create and save characters and plots, as
                 well as perform writing excercises through helpful prompts.
               </p>
-              <br />
               <h3 className="technologies">Technologies used:</h3>
               <ul>
                 <li id="project">MongoDB</li>
@@ -405,7 +404,7 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a href="https://snake-game-five-dun.vercel.app/">
+                <a href="https://snake-game-five-dun.vercel.app/newPlayer">
                   <button>
                     {" "}
                     Go to <br />
