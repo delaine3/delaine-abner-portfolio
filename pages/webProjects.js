@@ -337,12 +337,13 @@ export default function WebProjects() {
                     Go to <br />
                     Web App
                   </button>
+                  </a>
                   <a href="https://github.com/delaine3/Random-Quote-Generator">
                   <button>
                     Go to <br />
                     Source Code
                   </button>
-                </a>
+               
                 </a>
               </div>
             </div>
