@@ -334,9 +334,8 @@ export default function WebProjects() {
               <div className="container">
                 <a href="https://random-quote-generator-nu.vercel.app/">
                   <button>
-                    {" "}
                     Go to <br />
-                    Web App{" "}
+                    Web App
                   </button>
                   <a href="https://github.com/delaine3/Random-Quote-Generator">
                   <button>
