@@ -320,7 +320,6 @@ export default function WebProjects() {
           <li className="project-list">
             <h2 className="project-name">Random Quote Generator </h2>
             <div id="project-links">
-              <div>
                 <p>
                   This app allows you to generate random quotes and change the
                   application background.
@@ -332,7 +331,6 @@ export default function WebProjects() {
                     </ul>{" "}
                   </p>
                 </p>
-              </div>
               <div className="container">
                 <a href="https://random-quote-generator-nu.vercel.app/">
                   <button>
