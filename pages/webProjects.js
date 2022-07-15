@@ -44,7 +44,6 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">Next.js</li>
               </ul>{" "}
-              <br />
               <div className="container">
                 <a href="https://day-dream.vercel.app/">
                   {" "}
@@ -84,7 +83,6 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">Next.js</li>
               </ul>{" "}
-              <br />
               <div className="container">
                 <a href="https://a-memory-game-seven.vercel.app/">
                   {" "}
@@ -124,7 +122,6 @@ export default function WebProjects() {
                 <li id="project">NodeJS</li>
                 <li id="project">Next.js</li>
               </ul>{" "}
-              <br />
               <div className="container">
                 <a href="https://pantry-dusky.vercel.app/">
                   <button>
@@ -220,7 +217,6 @@ export default function WebProjects() {
                     Web App
                   </button>
                 </a>
-
                 <a href="https://github.com/delaine3/calculator">
                   <button>
                     Go to <br />
