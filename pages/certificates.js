@@ -10,7 +10,7 @@ export default function Certificates() {
           you to its verification page.
         </p>
         <ul>
-          <li id="certificate-list">
+          <li className="certificate-list">
             <a href="https://www.educative.io/verify-certificate/VNMOY20VjMkhzzpAZlRm17HE9qnl7w70mUr">
               An Introductory Guide to SQL
               <img
@@ -20,7 +20,7 @@ export default function Certificates() {
               />
             </a>
           </li>
-          <li id="certificate-list">
+          <li className="certificate-list">
             <a
               alt="Js-algorithms-and-data-structures"
               href="https://freecodecamp.org/certification/skyflower/javascript-algorithms-and-data-structures"
