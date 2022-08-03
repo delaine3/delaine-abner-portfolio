@@ -11,6 +11,16 @@ export default function Certificates() {
         </p>
         <ul>
           <li id="certificate-list">
+            <a href="https://www.educative.io/verify-certificate/VNMOY20VjMkhzzpAZlRm17HE9qnl7w70mUr">
+              An Introductory Guide to SQL
+              <img
+                src="https://i.ibb.co/M23R2cn/An-Introductory-Guide-to-SQL.png"
+                alt="An-Introductory-Guide-to-SQL"
+                border="0"
+              />
+            </a>
+          </li>
+          <li id="certificate-list">
             <a
               alt="Js-algorithms-and-data-structures"
               href="https://freecodecamp.org/certification/skyflower/javascript-algorithms-and-data-structures"
