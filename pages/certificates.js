@@ -10,6 +10,15 @@ export default function Certificates() {
           you to its verification page.
         </p>
         <ul>
+        <li className="certificate-list">
+        Java for Programmers
+            <a href="https://www.educative.io/verify-certificate/MjprXLCRQ2RNYV6QguPmg6DKlKo2TZ">
+            <img 
+            src="https://i.ibb.co/vDhb62Q/Java-for-Programmers.jpg" 
+            alt="Java-for-Programmers" 
+            border="0"/>
+            </a>
+          </li>
           <li className="certificate-list">
             <a href="https://www.educative.io/verify-certificate/VNMOY20VjMkhzzpAZlRm17HE9qnl7w70mUr">
               An Introductory Guide to SQL
