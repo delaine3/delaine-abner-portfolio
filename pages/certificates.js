@@ -14,8 +14,8 @@ export default function Certificates() {
         Java for Programmers
             <a href="https://www.educative.io/verify-certificate/MjprXLCRQ2RNYV6QguPmg6DKlKo2TZ">
             <img 
-            src="https://i.ibb.co/vDhb62Q/Java-for-Programmers.jpg" 
-            alt="Java-for-Programmers" 
+            src="https://i.ibb.co/BnwgmtZ/Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ.png" 
+            alt="Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ" 
             border="0"/>
             </a>
           </li>
