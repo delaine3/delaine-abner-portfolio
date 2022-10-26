@@ -77,16 +77,16 @@ nav {
 nav a {
   font-size: 20px;
   padding: 11px;
-  border-right: #fdbeff solid 1px;
+  border-right: #fdbeff71 solid 1px;
   box-shadow: 0px 0px 10px 1px #acb8d1;
   color: rgb(0, 0, 0);
   text-decoration: none;
-  background-color: #0cb6e0d7;
+  background-color: #ffffff75;
 }
 nav a:hover {
   cursor: pointer;
   color: #000000;
-  background-color: rgba(76, 0, 255, 0.459);
+  background-color: rgba(252, 168, 255, 0.705);
 }
 .nav-bar {
   top: 0px;
@@ -101,7 +101,7 @@ button:hover {
 }
 
 button {
-  background-color: #ffffff75;
+  background-color: #ffffff85;
   color: #ca59c1;
   border-radius: 16px;
   border: solid rgb(170, 110, 219) 1px;
@@ -160,7 +160,7 @@ p {
 }
 a {
   align-items: center;
-  text-shadow: #e959d8 1px 1px 5px;
+  text-shadow: #ff9ef4 1px 1px 5px;
 }
 
 a:hover {
