@@ -19,7 +19,7 @@ export default function wackAMole() {
           game. After the game is over they are presented with a form that
           allows them to save their progress.This app is created with the help
           of an official Next.js example titled:{" "}
-          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+          <a target="_blank" href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
             {" "}
             MongoDB and Mongoose With Next.js
           </a>
@@ -29,15 +29,15 @@ export default function wackAMole() {
           {" "}
           Some of the code and or ideas from my game are adapted from the
           following
-          <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+          <a target="_blank" href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
             FreeCodeCamp Tutorial Video.
           </a>{" "}
           You can find the original source code of this tutorial in the
           following
-          <a href="https://github.com/kubowania/whac-a-mole">Github repo</a> The
+          <a target="_blank" href="https://github.com/kubowania/whac-a-mole">Github repo</a> The
           original source contains an MIT license which allows anyone to use it.
           The game in the{" "}
-          <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+          <a target="_blank" href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
             FreeCodeCamp Tutorial Video
           </a>{" "}
           is made using vanilla javascript and minimal css. Mine is created
@@ -53,13 +53,13 @@ export default function wackAMole() {
             <li id="project">Next.js</li>
           </ul>{" "}
           <div className="container">
-            <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
+            <a target="_blank" href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
               <button>
                 Go to Delaine&rsquo;s
                 <br /> Version of the Game{" "}
               </button>
             </a>
-            <a href="https://github.com/delaine3/whack_a_mole">
+            <a target="_blank" href="https://github.com/delaine3/whack_a_mole">
               <button>
                 Go to Delaine&rsquo;s <br />
                 Source code{" "}

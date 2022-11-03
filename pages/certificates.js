@@ -10,17 +10,24 @@ export default function Certificates() {
           you to its verification page.
         </p>
         <ul>
-        <li className="certificate-list">
-        Java for Programmers
-            <a href="https://www.educative.io/verify-certificate/MjprXLCRQ2RNYV6QguPmg6DKlKo2TZ">
-            <img 
-            src="https://i.ibb.co/BnwgmtZ/Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ.png" 
-            alt="Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ" 
-            border="0"/>
+          <li className="certificate-list">
+            Java for Programmers
+            <a
+              href="https://www.educative.io/verify-certificate/MjprXLCRQ2RNYV6QguPmg6DKlKo2TZ"
+              target="_blank"
+            >
+              <img
+                src="https://i.ibb.co/BnwgmtZ/Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ.png"
+                alt="Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ"
+                border="0"
+              />
             </a>
           </li>
           <li className="certificate-list">
-            <a href="https://www.educative.io/verify-certificate/VNMOY20VjMkhzzpAZlRm17HE9qnl7w70mUr">
+            <a
+              href="https://www.educative.io/verify-certificate/VNMOY20VjMkhzzpAZlRm17HE9qnl7w70mUr"
+              target="_blank"
+            >
               An Introductory Guide to SQL
               <img
                 src="https://i.ibb.co/M23R2cn/An-Introductory-Guide-to-SQL.png"
@@ -31,6 +38,7 @@ export default function Certificates() {
           </li>
           <li className="certificate-list">
             <a
+              target="_blank"
               alt="Js-algorithms-and-data-structures"
               href="https://freecodecamp.org/certification/skyflower/javascript-algorithms-and-data-structures"
             >
@@ -44,6 +52,7 @@ export default function Certificates() {
           </li>
           <li className="certificate-list">
             <a
+              target="_blank"
               alt="C# for Programmers: A Practical Guide"
               href="https://www.educative.io/verify-certificate/3l5A3ZfxW0YVDK0YGtEmNBWXGXyrUZ"
             >
@@ -56,7 +65,10 @@ export default function Certificates() {
             </a>
           </li>
           <li className="certificate-list">
-            <a href="https://www.educative.io/verify-certificate/487B21tm2wvNQWy8ruNEvA2ynyZJuG">
+            <a
+              target="_blank"
+              href="https://www.educative.io/verify-certificate/487B21tm2wvNQWy8ruNEvA2ynyZJuG"
+            >
               Kubernetes in Practice
               <img
                 src="https://i.ibb.co/tM6yY2f/Kubernetes-in-Practice.png"
@@ -66,7 +78,10 @@ export default function Certificates() {
             </a>
           </li>
           <li className="certificate-list">
-            <a href="https://www.educative.io/verify-certificate/zBQvGLJxEmRsxGDQKMXmm3CMm8qYO9Oyli7">
+            <a
+              target="_blank"
+              href="https://www.educative.io/verify-certificate/zBQvGLJxEmRsxGDQKMXmm3CMm8qYO9Oyli7"
+            >
               Mastering Regular Expressions in Java
               <img
                 src="https://i.ibb.co/rFfjnyB/Mastering-Regular-Expressions-in-Java.png"
@@ -76,7 +91,10 @@ export default function Certificates() {
             </a>
           </li>
           <li className="certificate-list">
-            <a href="https://www.educative.io/verify-certificate/g5g3ywCNnVBqRGzoJTKqWlVzgz1BSk">
+            <a
+              target="_blank"
+              href="https://www.educative.io/verify-certificate/g5g3ywCNnVBqRGzoJTKqWlVzgz1BSk"
+            >
               AWS Security Fundamentals
               <img
                 src="https://i.ibb.co/kKgknZk/AWS-SECURITY-FUNDAMENTALS.png"
@@ -86,7 +104,10 @@ export default function Certificates() {
             </a>
           </li>
           <li className="certificate-list">
-            <a href="https://www.educative.io/verify-certificate/3l5A3Zfxkx2YOBln7hEmNBWXGXyrUZ">
+            <a
+              target="_blank"
+              href="https://www.educative.io/verify-certificate/3l5A3Zfxkx2YOBln7hEmNBWXGXyrUZ"
+            >
               The Detailed Workings of AWS S3
               <img
                 src="https://i.ibb.co/TwfYkj5/The-Detailed-Workings-of-AWS-S3.png"
@@ -96,7 +117,8 @@ export default function Certificates() {
             </a>
           </li>
           <li className="certificate-list">
-            <a
+            <a 
+              target="_blank"
               alt="MongoDB: The Complete Guide"
               href="https://www.educative.io/verify-certificate/O8NM6428nOwI0xAXQR7725cjox2m3Q3DKTB"
             >

@@ -54,12 +54,12 @@ export default function ConnectFour() {
           </div>
         </p>
         <div className="container">
-          <a href="https://connect-four-game.vercel.app/">
+          <a target="_blank" href="https://connect-four-game.vercel.app/">
             <button>
               Go to Delaine&rsquo;s <br /> Version of the Game
             </button>
           </a>
-          <a href="https://github.com/delaine3/Connect_Four_Game">
+          <a target="_blank" href="https://github.com/delaine3/Connect_Four_Game">
             <button>
               {" "}
               Go to Delaine&rsquo;s <br />

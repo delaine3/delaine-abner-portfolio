@@ -21,23 +21,23 @@ export default function SnakeGame() {
           their score. There is also a page that contains a score board which
           contains the scores of other players in descending order.This app is
           created with the help of an official Next.js example titled:{" "}
-          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+          <a target="_blank" href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
             {" "}
             MongoDB and Mongoose With Next.js
           </a>
           .
         </p>{" "}
         Some of the code and ideas from my game are adapted from the following
-        <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+        <a target="_blank" href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
           FreeCodeCamp Tutorial Video.
         </a>{" "}
         You can find the original source code of this tutorial in the following
-        <a href="https://github.com/kubowania/Nokia3310-Snake">
+        <a target="_blank" href="https://github.com/kubowania/Nokia3310-Snake">
           Github repo
         </a>{" "}
         The original source contains an MIT license which allows anyone to use
         it. The game in the{" "}
-        <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+        <a target="_blank" href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
           FreeCodeCamp Tutorial Video
         </a>{" "}
         is made using vanilla javascript and minimal css. Mine is created using
@@ -51,13 +51,13 @@ export default function SnakeGame() {
             <li id="project">NodeJS</li>
             <li id="project">Next.js</li>
           </ul>{" "}
-          <a href="https://snake-game-five-dun.vercel.app/">
+          <a target="_blank" href="https://snake-game-five-dun.vercel.app/">
             <button>
               Go to Delaine&rsquo;s <br />
               Version of the Game{" "}
             </button>
           </a>
-          <a href="https://github.com/delaine3/snake_game">
+          <a target="_blank" href="https://github.com/delaine3/snake_game">
             <button>
               Go to Delaine&rsquo;s <br />
               Source Code{" "}

@@ -21,6 +21,7 @@ body {
   height: 100%;
   padding: 0px;
   overflow-x: hidden;
+  border: #f10a0a solid;
 }
 
 * {
@@ -37,11 +38,13 @@ body {
   text-align: left;
   align-content: left;
   font-family: "Montserrat", sans-serif;
+
 }
 
 .center {
   margin: auto;
   width: 100%;
+  
 }
 .certificate-list {
   margin: 10px;
@@ -56,7 +59,7 @@ body {
 
 .tile-list li {
   list-style: none;
-}
+  }
 
 .blurb {
   width: 75%;
@@ -139,6 +142,7 @@ p {
   align-items: center;
   justify-content: center;
   padding: 0px;
+  
 }
 @media only screen and (max-width: 600px) {
   .container button {
@@ -147,15 +151,36 @@ p {
     font-size: 14px;
   }
 }
+@media only screen and (max-height: 768px) {
+
+  .footer {
+    margin-top: 3%;
+
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .container button {
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+  }
+  .footer {
+    margin-top: 35%;
+
+  }
+}
 .footer {
+  margin-top: 7%;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 300px;
+  height: 10%;
   color: rgb(0, 0, 0);
   text-align: left;
 }
 .footer h2 {
   font-size: 20px;
+  
 }
 a {
   align-items: center;
@@ -208,14 +233,12 @@ h1 {
 }
 
 img {
-  width: 98.5%;
+  width: 100%;
   box-shadow: 2px 2px 15px #ff3cef;
-  image-rendering: -moz-crisp-edges; /* Firefox */
-image-rendering: -o-crisp-edges; /* Opera */
-image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
-image-rendering: crisp-edges;
--ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
-
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 .certificates ul {
   padding: 0;
@@ -242,13 +265,14 @@ width: 150px;
   min-width: fit-content;
   width: 50%;
   margin: auto;
+  
 }
 .center-box ul {
   width: 50%;
   margin: auto;
 }
 .center-box .technologies {
-  color: #0038a0;
+  color: #0038a0; 
   text-align: center;
 }
 .project-page {
@@ -259,7 +283,7 @@ width: 150px;
   background-color: rgba(240, 248, 255, 0.445);
   padding: 10px;
   border: 1.25px solid rgba(35, 70, 151, 0.568);
-  border-radius: 16px;
+  border-radius: 16px; 
 }
 
 .project-list {
@@ -274,11 +298,11 @@ width: 150px;
   border-radius: 16px;
   margin: 5px;
   position: relative;
-  background-color: #ffffff91;
+  background-color: #ffffff91; 
 }
 
 .project-list * {
-  margin: 0;
+  margin: 0; 
 }
 
 .grid {
@@ -287,7 +311,8 @@ width: 150px;
   justify-content: center;
   padding: 0;
   list-style-type: none;
-  overflow: hidden;
+  overflow: hidden; 
+
 }
 
 .main-content {

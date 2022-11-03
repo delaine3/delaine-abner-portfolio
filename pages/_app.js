@@ -4,10 +4,13 @@ import Footer from "../components/footer";
 function MyApp({ Component, pageProps }) {
 
   return (
+    <div>
     <div className="grid wrapper">
       <Navbar/>
       <Component {...pageProps} />
-      <Footer/>
+    </div>
+    <Footer/>
+
     </div>
   );
 }

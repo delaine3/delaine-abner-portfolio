@@ -22,7 +22,7 @@ export default function Pantry() {
           form. Please click on the button below to view and use the app.
         </p>This app is created with the help of an official Next.js
           example titled:{" "}
-          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+          <a target="_blank" href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
             {" "}
            MongoDB and Mongoose With Next.js
           </a>
@@ -37,14 +37,14 @@ export default function Pantry() {
             <li id="project">Next.js</li>
           </ul>{" "}
           <div className="container">
-            <a href="https://pantry-dusky.vercel.app/">
+            <a target="_blank" href="https://pantry-dusky.vercel.app/">
               {" "}
               <button>
                 Go to <br />
                 Web App{" "}
               </button>
             </a>{" "}
-            <a href="https://github.com/delaine3/Pantry">
+            <a target="_blank" href="https://github.com/delaine3/Pantry">
               {" "}
               <button>
                 Go to <br />

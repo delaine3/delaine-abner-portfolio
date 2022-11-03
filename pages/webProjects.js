@@ -21,7 +21,7 @@ export default function WebProjects() {
           the public domain or require attribution. If attribution is required
           it will be visible in the page in which the image is used. The Next.js
           apps are created with the help of an official Next.js example titled:{" "}
-          <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+          <a target="_blank" href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
             {" "}
             MongoDB and Mongoose With Next.js
           </a>
@@ -44,7 +44,7 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a href="https://day-dream.vercel.app/">
+                <a target="_blank" href="https://day-dream.vercel.app/">
                   {" "}
                   <button>
                     {" "}
@@ -52,7 +52,7 @@ export default function WebProjects() {
                     Web App{" "}
                   </button>
                 </a>{" "}
-                <a href="https://github.com/delaine3/dayDream">
+                <a target="_blank" href="https://github.com/delaine3/dayDream">
                   {" "}
                   <button>
                     {" "}
@@ -83,7 +83,7 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a href="https://a-memory-game-seven.vercel.app/">
+                <a target="_blank" href="https://a-memory-game-seven.vercel.app/">
                   {" "}
                   <button>
                     {" "}
@@ -91,7 +91,7 @@ export default function WebProjects() {
                     Web App{" "}
                   </button>
                 </a>{" "}
-                <a href="https://github.com/delaine3/A_Memory_Game">
+                <a target="_blank" href="https://github.com/delaine3/A_Memory_Game">
                   {" "}
                   <button>
                     {" "}
@@ -122,13 +122,13 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a href="https://pantry-dusky.vercel.app/">
+                <a target="_blank" href="https://pantry-dusky.vercel.app/">
                   <button>
                     Go to
                     <br /> Web App
                   </button>
                 </a>
-                <a href="https://github.com/delaine3/Pantry">
+                <a target="_blank" href="https://github.com/delaine3/Pantry">
                   <button>
                     Go to
                     <br /> Source Code
@@ -151,7 +151,7 @@ export default function WebProjects() {
                 </p>
               </p>{" "}
               <div className="container">
-                <a href="https://github.com/delaine3/delaine-abner-portfolio">
+                <a target="_blank" href="https://github.com/delaine3/delaine-abner-portfolio">
                   {" "}
                   <button>
                     Go to <br />
@@ -176,14 +176,14 @@ export default function WebProjects() {
                 </p>
               </p>
               <div className="container">
-                <a href="https://text-formatter-zeta.vercel.app/">
+                <a target="_blank" href="https://text-formatter-zeta.vercel.app/">
                   <button>
                     {" "}
                     Go to
                     <br /> Web App
                   </button>
                 </a>
-                <a href="https://github.com/delaine3/Text_Formatter">
+                <a target="_blank" href="https://github.com/delaine3/Text_Formatter">
                   <button>
                     Go to
                     <br /> Source Code
@@ -209,14 +209,14 @@ export default function WebProjects() {
                 </p>
               </p>
               <div className="container">
-                <a href="https://calculator-mu-ten.vercel.app/">
+                <a target="_blank" href="https://calculator-mu-ten.vercel.app/">
                   <button>
                     {" "}
                     Go to <br />
                     Web App
                   </button>
                 </a>
-                <a href="https://github.com/delaine3/calculator">
+                <a target="_blank" href="https://github.com/delaine3/calculator">
                   <button>
                     Go to <br />
                     Source Code
@@ -239,14 +239,14 @@ export default function WebProjects() {
                 </p>
               </p>
               <div className="container">
-                <a href="https://drum-machine-app-ten.vercel.app/">
+                <a target="_blank" href="https://drum-machine-app-ten.vercel.app/">
                   <button>
                     {" "}
                     Go to <br />
                     Web App{" "}
                   </button>
                 </a>
-                <a href="https://github.com/delaine3/Drum-Machine-App">
+                <a target="_blank" href="https://github.com/delaine3/Drum-Machine-App">
                   <button>
                     Go to <br />
                     Source Code
@@ -270,7 +270,7 @@ export default function WebProjects() {
               </p>
 
               <div className="container">
-                <a href="https://codepen.io/Delaine/pen/oNWOPyd">
+                <a target="_blank" href="https://codepen.io/Delaine/pen/oNWOPyd">
                   <button>
                     Go to <br />
                     Codepen
@@ -300,14 +300,14 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a href="https://whack-a-mole-green.vercel.app/">
+                <a target="_blank" href="https://whack-a-mole-green.vercel.app/">
                   <button>
                     {" "}
                     Go to <br />
                     Web App{" "}
                   </button>
                 </a>
-                <a href="https://github.com/delaine3/whack_a_mole">
+                <a target="_blank" href="https://github.com/delaine3/whack_a_mole">
                   <button>
                     Go to <br />
                     Source Code
@@ -331,13 +331,13 @@ export default function WebProjects() {
                   </p>
                 </p>
               <div className="container">
-                <a href="https://random-quote-generator-nu.vercel.app/">
+                <a target="_blank" href="https://random-quote-generator-nu.vercel.app/">
                   <button>
                     Go to <br />
                     Web App
                   </button>
                   </a>
-                  <a href="https://github.com/delaine3/Random-Quote-Generator">
+                  <a target="_blank" href="https://github.com/delaine3/Random-Quote-Generator">
                   <button>
                     Go to <br />
                     Source Code
@@ -367,14 +367,14 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a href="https://connect-four-game.vercel.app/">
+                <a target="_blank" href="https://connect-four-game.vercel.app/">
                   <button>
                     {" "}
                     Go to <br />
                     Web App{" "}
                   </button>
                 </a>
-                <a href="https://github.com/delaine3/Connect_Four_Game">
+                <a target="_blank" href="https://github.com/delaine3/Connect_Four_Game">
                   <button>
                     Go to <br />
                     Source Code
@@ -404,14 +404,14 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a href="https://snake-game-five-dun.vercel.app/newPlayer">
+                <a target="_blank" href="https://snake-game-five-dun.vercel.app/newPlayer">
                   <button>
                     {" "}
                     Go to <br />
                     Web App
                   </button>
                 </a>
-                <a href="https://github.com/delaine3/snake_game">
+                <a target="_blank" href="https://github.com/delaine3/snake_game">
                   <button>
                     Go to <br />
                     Source Code
@@ -436,14 +436,14 @@ export default function WebProjects() {
                 </p>
               </div>
               <div className="container">
-                <a href="https://timer-project-one.vercel.app/">
+                <a target="_blank" href="https://timer-project-one.vercel.app/">
                   <button>
                     {" "}
                     Go to <br />
                     Web App
                   </button>
                 </a>
-                <a href="https://github.com/delaine3/timer-project">
+                <a target="_blank" href="https://github.com/delaine3/timer-project">
                   <button>
                     Go to
                     <br /> Source Code
@@ -459,7 +459,7 @@ export default function WebProjects() {
                 <p>
                   This is a website. All information in the paragraphs was
                   copied verbatim from{" "}
-                  <a href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/">
+                  <a target="_blank" href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/">
                     this website
                   </a>
                   .
@@ -473,7 +473,7 @@ export default function WebProjects() {
                 </p>
               </div>
               <div className="container">
-                <a href="https://codepen.io/Delaine/pen/NWdZmyW">
+                <a target="_blank" href="https://codepen.io/Delaine/pen/NWdZmyW">
                   <button>
                     {" "}
                     Go to
@@ -499,7 +499,7 @@ export default function WebProjects() {
                 </p>
               </div>
               <div className="container">
-                <a href="https://codepen.io/Delaine/pen/oNBroGY">
+                <a target="_blank" href="https://codepen.io/Delaine/pen/oNBroGY">
                   <button>
                     {" "}
                     Go to
