@@ -128,7 +128,7 @@ button {
   box-shadow: 0px 0px 3px 1px #6d9cff;
 }
 .container button:hover {
-  color: #8f5b9c;
+  color: #c8b6ff;
   background-color: #ffffffe1;
   cursor: pointer;
 }
