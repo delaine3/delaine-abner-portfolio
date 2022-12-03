@@ -14,12 +14,20 @@ export default function Index() {
       </Head>
       <div>
         <h2>Hi, my name is Delaine. Welcome to my portfolio.</h2>
+        <div>
+          <img
+            className="profile-img"
+            src="https://i.ibb.co/R0YnBXG/IMG-8554erger.jpg"
+            alt="IMG-8554erger"
+            border="0"
+          />
+        </div>
         <div className="grid">
           <div id="webapps-index">
             <h3>Web Apps</h3>
             <p>
               These are projects that I have worked on. They are built using a
-              combination of the following technologies:{" "}
+              combination of the following technologies:
             </p>
             <ul>
               <li id="project">MongoDB</li>
