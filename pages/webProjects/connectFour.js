@@ -57,7 +57,7 @@ export default function ConnectFour() {
           <a
             target="_blank"
             href="https://connect-four-game.vercel.app/"
-            rel="noopener"
+            rel="noreferrer"
           >
             <button>
               Go to Delaine&rsquo;s <br /> Version of the Game
@@ -66,7 +66,7 @@ export default function ConnectFour() {
           <a
             target="_blank"
             href="https://github.com/delaine3/Connect_Four_Game"
-            rel="noopener"
+            rel="noreferrer"
           >
             <button>
               {" "}

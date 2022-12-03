@@ -22,6 +22,7 @@ export default function WebProjects() {
           it will be visible in the page in which the image is used. The Next.js
           apps are created with the help of an official Next.js example titled:{" "}
           <a
+            rel="noreferrer"
             target="_blank"
             href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose"
           >
