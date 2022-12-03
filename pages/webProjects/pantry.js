@@ -20,13 +20,17 @@ export default function Pantry() {
           2 tabs: shopping list and pantry. For both the shopping list and
           pantry sections, you can add food into your list by filling out a
           form. Please click on the button below to view and use the app.
-        </p>This app is created with the help of an official Next.js
-          example titled:{" "}
-          <a target="_blank" href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
-            {" "}
-           MongoDB and Mongoose With Next.js
-          </a>
-          .
+        </p>
+        This app is created with the help of an official Next.js example titled:{" "}
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose"
+        >
+          {" "}
+          MongoDB and Mongoose With Next.js
+        </a>
+        .
         <div className="center-box">
           <h3 className="technologies">Technologies used:</h3>
           <ul>
@@ -37,14 +41,22 @@ export default function Pantry() {
             <li id="project">Next.js</li>
           </ul>{" "}
           <div className="container">
-            <a target="_blank" href="https://pantry-dusky.vercel.app/">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://pantry-dusky.vercel.app/"
+            >
               {" "}
               <button>
                 Go to <br />
                 Web App{" "}
               </button>
             </a>{" "}
-            <a target="_blank" href="https://github.com/delaine3/Pantry">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/delaine3/Pantry"
+            >
               {" "}
               <button>
                 Go to <br />

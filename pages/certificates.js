@@ -15,6 +15,7 @@ export default function Certificates() {
             <a
               href="https://www.educative.io/verify-certificate/MjprXLCRQ2RNYV6QguPmg6DKlKo2TZ"
               target="_blank"
+              rel="noopener"
             >
               <img
                 src="https://i.ibb.co/BnwgmtZ/Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ.png"
@@ -27,6 +28,7 @@ export default function Certificates() {
             <a
               href="https://www.educative.io/verify-certificate/VNMOY20VjMkhzzpAZlRm17HE9qnl7w70mUr"
               target="_blank"
+              rel="noopener"
             >
               An Introductory Guide to SQL
               <img
@@ -39,6 +41,7 @@ export default function Certificates() {
           <li className="certificate-list">
             <a
               target="_blank"
+              rel="noopener"
               alt="Js-algorithms-and-data-structures"
               href="https://freecodecamp.org/certification/skyflower/javascript-algorithms-and-data-structures"
             >
@@ -53,6 +56,7 @@ export default function Certificates() {
           <li className="certificate-list">
             <a
               target="_blank"
+              rel="noopener"
               alt="C# for Programmers: A Practical Guide"
               href="https://www.educative.io/verify-certificate/3l5A3ZfxW0YVDK0YGtEmNBWXGXyrUZ"
             >
@@ -67,6 +71,7 @@ export default function Certificates() {
           <li className="certificate-list">
             <a
               target="_blank"
+              rel="noopener"
               href="https://www.educative.io/verify-certificate/487B21tm2wvNQWy8ruNEvA2ynyZJuG"
             >
               Kubernetes in Practice
@@ -80,6 +85,7 @@ export default function Certificates() {
           <li className="certificate-list">
             <a
               target="_blank"
+              rel="noopener"
               href="https://www.educative.io/verify-certificate/zBQvGLJxEmRsxGDQKMXmm3CMm8qYO9Oyli7"
             >
               Mastering Regular Expressions in Java
@@ -93,6 +99,7 @@ export default function Certificates() {
           <li className="certificate-list">
             <a
               target="_blank"
+              rel="noopener"
               href="https://www.educative.io/verify-certificate/g5g3ywCNnVBqRGzoJTKqWlVzgz1BSk"
             >
               AWS Security Fundamentals
@@ -106,6 +113,7 @@ export default function Certificates() {
           <li className="certificate-list">
             <a
               target="_blank"
+              rel="noopener"
               href="https://www.educative.io/verify-certificate/3l5A3Zfxkx2YOBln7hEmNBWXGXyrUZ"
             >
               The Detailed Workings of AWS S3
@@ -117,7 +125,7 @@ export default function Certificates() {
             </a>
           </li>
           <li className="certificate-list">
-            <a 
+            <a
               target="_blank"
               alt="MongoDB: The Complete Guide"
               href="https://www.educative.io/verify-certificate/O8NM6428nOwI0xAXQR7725cjox2m3Q3DKTB"

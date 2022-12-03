@@ -52,7 +52,11 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a target="_blank" href="https://github.com/jongan69/kudos">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/jongan69/kudos"
+                >
                   {" "}
                   <button>
                     {" "}
@@ -79,7 +83,11 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a target="_blank" href="https://day-dream.vercel.app/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://day-dream.vercel.app/"
+                >
                   {" "}
                   <button>
                     {" "}
@@ -87,7 +95,11 @@ export default function WebProjects() {
                     Web App{" "}
                   </button>
                 </a>{" "}
-                <a target="_blank" href="https://github.com/delaine3/dayDream">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/delaine3/dayDream"
+                >
                   {" "}
                   <button>
                     {" "}
@@ -119,6 +131,7 @@ export default function WebProjects() {
               </ul>{" "}
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://a-memory-game-seven.vercel.app/"
                 >
@@ -130,6 +143,7 @@ export default function WebProjects() {
                   </button>
                 </a>{" "}
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/A_Memory_Game"
                 >
@@ -163,13 +177,21 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a target="_blank" href="https://pantry-dusky.vercel.app/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://pantry-dusky.vercel.app/"
+                >
                   <button>
                     Go to
                     <br /> Web App
                   </button>
                 </a>
-                <a target="_blank" href="https://github.com/delaine3/Pantry">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/delaine3/Pantry"
+                >
                   <button>
                     Go to
                     <br /> Source Code
@@ -193,6 +215,7 @@ export default function WebProjects() {
               </p>{" "}
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/delaine-abner-portfolio"
                 >
@@ -221,6 +244,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://text-formatter-zeta.vercel.app/"
                 >
@@ -231,6 +255,7 @@ export default function WebProjects() {
                   </button>
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/Text_Formatter"
                 >
@@ -259,7 +284,11 @@ export default function WebProjects() {
                 </p>
               </p>
               <div className="container">
-                <a target="_blank" href="https://calculator-mu-ten.vercel.app/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://calculator-mu-ten.vercel.app/"
+                >
                   <button>
                     {" "}
                     Go to <br />
@@ -267,6 +296,7 @@ export default function WebProjects() {
                   </button>
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/calculator"
                 >
@@ -293,6 +323,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://drum-machine-app-ten.vercel.app/"
                 >
@@ -303,6 +334,7 @@ export default function WebProjects() {
                   </button>
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/Drum-Machine-App"
                 >
@@ -330,6 +362,7 @@ export default function WebProjects() {
 
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://codepen.io/Delaine/pen/oNWOPyd"
                 >
@@ -363,6 +396,7 @@ export default function WebProjects() {
               </ul>{" "}
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://whack-a-mole-green.vercel.app/"
                 >
@@ -373,6 +407,7 @@ export default function WebProjects() {
                   </button>
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/whack_a_mole"
                 >
@@ -400,6 +435,7 @@ export default function WebProjects() {
               </p>
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://random-quote-generator-nu.vercel.app/"
                 >
@@ -409,6 +445,7 @@ export default function WebProjects() {
                   </button>
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/Random-Quote-Generator"
                 >
@@ -440,7 +477,11 @@ export default function WebProjects() {
                 <li id="project">Next.js</li>
               </ul>{" "}
               <div className="container">
-                <a target="_blank" href="https://connect-four-game.vercel.app/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://connect-four-game.vercel.app/"
+                >
                   <button>
                     {" "}
                     Go to <br />
@@ -448,6 +489,7 @@ export default function WebProjects() {
                   </button>
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/Connect_Four_Game"
                 >
@@ -481,6 +523,7 @@ export default function WebProjects() {
               </ul>{" "}
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://snake-game-five-dun.vercel.app/newPlayer"
                 >
@@ -491,6 +534,7 @@ export default function WebProjects() {
                   </button>
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/snake_game"
                 >
@@ -518,7 +562,11 @@ export default function WebProjects() {
                 </p>
               </div>
               <div className="container">
-                <a target="_blank" href="https://timer-project-one.vercel.app/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://timer-project-one.vercel.app/"
+                >
                   <button>
                     {" "}
                     Go to <br />
@@ -526,6 +574,7 @@ export default function WebProjects() {
                   </button>
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://github.com/delaine3/timer-project"
                 >
@@ -545,6 +594,7 @@ export default function WebProjects() {
                   This is a website. All information in the paragraphs was
                   copied verbatim from{" "}
                   <a
+                    rel="noreferrer"
                     target="_blank"
                     href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/"
                   >
@@ -562,6 +612,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://codepen.io/Delaine/pen/NWdZmyW"
                 >
@@ -591,6 +642,7 @@ export default function WebProjects() {
               </div>
               <div className="container">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="https://codepen.io/Delaine/pen/oNBroGY"
                 >

@@ -23,7 +23,7 @@ export default function ConnectFour() {
           example titled:{" "}
           <a href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
             {" "}
-           MongoDB and Mongoose With Next.js
+            MongoDB and Mongoose With Next.js
           </a>
           . Some of the code and or ideas from my game are adapted from the the
           following
@@ -54,12 +54,20 @@ export default function ConnectFour() {
           </div>
         </p>
         <div className="container">
-          <a target="_blank" href="https://connect-four-game.vercel.app/">
+          <a
+            target="_blank"
+            href="https://connect-four-game.vercel.app/"
+            rel="noopener"
+          >
             <button>
               Go to Delaine&rsquo;s <br /> Version of the Game
             </button>
           </a>
-          <a target="_blank" href="https://github.com/delaine3/Connect_Four_Game">
+          <a
+            target="_blank"
+            href="https://github.com/delaine3/Connect_Four_Game"
+            rel="noopener"
+          >
             <button>
               {" "}
               Go to Delaine&rsquo;s <br />

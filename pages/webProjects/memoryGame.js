@@ -20,20 +20,38 @@ export default function MemoryGame() {
           they win the game, they can input their name and save their score. The
           scores on the score board are arranged alphabetically.This app is
           created with the help of an official Next.js example titled:{" "}
-          <a target="_blank" href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose"
+          >
             {" "}
             MongoDB and Mongoose With Next.js
           </a>
           . Some of the ideas from this game are adapted from the the following
-          <a target="_blank" href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s"
+          >
             FreeCodeCamp Tutorial Video.
           </a>{" "}
           You can find the original source code of this tutorial in the
           following
-          <a target="_blank" href="https://github.com/kubowania/memory-game">Github repo</a> The
-          original source contains an MIT license which allows anyone to use it.
-          The game in the{" "}
-          <a target="_blank" href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/kubowania/memory-game"
+          >
+            Github repo
+          </a>{" "}
+          The original source contains an MIT license which allows anyone to use
+          it. The game in the{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s"
+          >
             FreeCodeCamp Tutorial Video
           </a>{" "}
           is made using Vanilla Javascript and minimal css. Mine is created
@@ -50,7 +68,11 @@ export default function MemoryGame() {
           </ul>{" "}
           <div className="container">
             {" "}
-            <a target="_blank" href="https://a-memory-game-seven.vercel.app/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://a-memory-game-seven.vercel.app/"
+            >
               {" "}
               <button>
                 {" "}
@@ -58,7 +80,11 @@ export default function MemoryGame() {
                 Version of the Game
               </button>
             </a>{" "}
-            <a target="_blank" href="https://github.com/delaine3/A_Memory_Game">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/delaine3/A_Memory_Game"
+            >
               <button>
                 Go to Delaine&rsquo;s
                 <br /> Source Code
