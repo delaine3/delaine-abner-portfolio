@@ -171,13 +171,13 @@ p {
   }
 }
 .footer {
-  margin-top: 7%;
+  position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
-  height: 10%;
-  color: rgb(0, 0, 0);
-  text-align: left;
+  width: 100%;
+}
+.footer-text {
+  float: left;
 }
 .footer h2 {
   font-size: 20px;
