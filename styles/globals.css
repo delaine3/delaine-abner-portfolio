@@ -45,7 +45,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 30%;
   border-radius: 10px;
 }
 .certificate-list {
@@ -67,7 +67,7 @@ body {
   width: 75%;
   padding: 10px;
   margin: auto;
-  box-shadow: #ff70f3 1px 1px 10px;
+  box-shadow: #fff9ff 1px 1px 10px;
   background-color: #ffffffa8;
   border-radius: 16px;
   font-size: large;
@@ -235,7 +235,6 @@ h1 {
 
 img {
   width: 100%;
-  box-shadow: 2px 2px 15px #ff3cef;
   image-rendering: -moz-crisp-edges; /* Firefox */
   image-rendering: -o-crisp-edges; /* Opera */
   image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
