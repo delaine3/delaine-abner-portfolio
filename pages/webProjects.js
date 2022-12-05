@@ -33,40 +33,6 @@ export default function WebProjects() {
         </p>
         <ul className="grid">
           <li className="project-list">
-            <h2 className="project-name"> Blockchain App </h2>
-            <div id="project-links">
-              <p>
-                Worked collaboartively during the Chainlink hackathon to create
-                an application that allows users to make posts that are recorded
-                in a blockchain. We are currently using the test net Goerli. My
-                contribution was to the frontend which is made using React
-                Native.
-              </p>
-              <h3 className="technologies">Technologies used:</h3>
-              <ul>
-                <li id="project">Web3Auth</li>
-                <li id="project">React Native</li>
-                <li id="project">Chainlink VRF</li>
-                <li id="project">Solidity</li>
-                <li id="project">Next.js</li>
-              </ul>{" "}
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/jongan69/kudos"
-                >
-                  {" "}
-                  <button>
-                    {" "}
-                    Go to
-                    <br /> Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
             <h2 className="project-name">Story Book </h2>
             <div id="project-links">
               <p>

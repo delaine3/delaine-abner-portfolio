@@ -11,12 +11,13 @@ export default function Certificates() {
         </p>
         <ul>
           <li className="certificate-list">
-            Java for Programmers
             <a
               href="https://www.educative.io/verify-certificate/MjprXLCRQ2RNYV6QguPmg6DKlKo2TZ"
               target="_blank"
               rel="noreferrer"
             >
+              {" "}
+              Java for Programmers
               <img
                 src="https://i.ibb.co/BnwgmtZ/Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ.png"
                 alt="Mjpr-XLCRQ2-RNYV6-Qgu-Pmg6-DKl-Ko2-TZ"
