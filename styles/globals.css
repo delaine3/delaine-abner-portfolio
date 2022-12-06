@@ -174,12 +174,10 @@ p {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Height of the footer */
+  height: 50px; /* Height of the footer */
   background: #8fd2ff;
 }
-.footer-text {
-  float: left;
-}
+
 .footer h2 {
   font-size: 20px;
 }
