@@ -237,19 +237,6 @@ h3 {
   list-style: none;
 }
 
-#webapps-index {
-  min-width: min-content;
-  width: 300px;
-  padding: 20px;
-  height: 350px;
-  overflow-wrap: break-word;
-  border: 1.25px solid rgba(35, 69, 151, 0.684);
-  border-radius: 16px;
-  margin: 10px;
-  position: relative;
-  background-color: #ffffff91;
-}
-
 img {
   width: 100%;
   image-rendering: -moz-crisp-edges; /* Firefox */
@@ -267,12 +254,12 @@ img {
   min-width: fit-content;
   width: 150px;
 }
-#certificates-index {
+.index-card {
   min-width: min-content;
   display: inline-block;
   width: 300px;
   padding: 20px;
-  height: 350px;
+  height: 400px;
   overflow-wrap: break-word;
   border: 1.25px solid rgba(35, 69, 151, 0.684);
   border-radius: 16px;

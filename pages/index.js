@@ -17,7 +17,7 @@ export default function Index() {
         <h2>Hi, my name is Delaine. Welcome to my portfolio.</h2>
 
         <div className="grid">
-          <div id="webapps-index">
+          <div className="index-card">
             <h3>Web Apps</h3>
             <p>
               These are projects that I have worked on. They are built using a
@@ -25,10 +25,11 @@ export default function Index() {
             </p>
             <ul>
               <li id="project">MongoDB</li>
-              <li id="project">Express</li>
-              <li id="project">React</li>
-              <li id="project">Next.js</li>
-              <li id="project">NodeJS</li>
+              <li>MongoDB</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>NodeJS</li>
             </ul>{" "}
             <div className="container">
               <Link href="/webProjects">
@@ -40,19 +41,19 @@ export default function Index() {
               </Link>
             </div>
           </div>
-          <div id="certificates-index">
+          <div className="index-card">
             <h3>Certificates</h3>
             <p>
               These are the certificates I have attained thus far. They concern
               the following technologies:
             </p>
             <ul>
-              <li id="project">C#</li>
-              <li id="project">Javascript</li>
-              <li id="project">AWS</li>
-              <li id="project">Java</li>
-              <li id="project">Kubernetes</li>
-              <li id="project">MongoDB</li>
+              <li>C#</li>
+              <li>Javascript</li>
+              <li>AWS</li>
+              <li>Java</li>
+              <li>Kubernetes</li>
+              <li>MongoDB</li>
             </ul>
             <div className="container">
               <Link href="/certificates">
