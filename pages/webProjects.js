@@ -13,9 +13,9 @@ const ProjectListItem = ({
   <li className="project-list">
     <div className="project-links">
       <div className="project-content p-2">
-        <h2 className="project-name">{title}</h2>
+        <div className="project-name text-center fs-2">{title}</div>
         <p>{blurb}</p>
-        <h3 className="technologies">Technologies used:</h3>
+        <div className="fs-3 text-center">Technologies used:</div>
         <ul>
           {technologies.map((tech, index) => (
             <li key={index} id={`project-${index}`}>
@@ -193,6 +193,9 @@ export default function WebProjects() {
             <ProjectListItem key={index} {...project} />
           ))}
         </ul>
+      </div>
+      <div className="footer">
+        <h2 className="footer-text">Copyright © 2022 Delaine Abner</h2>
       </div>
     </div>
   );
