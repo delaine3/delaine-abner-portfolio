@@ -5,13 +5,13 @@ export default function Navbar() {
     <div className="nav-bar">
       <nav>
         <Link href="/">
-          <a className="nav-link">Home</a>
+          <a className="">Home</a>
         </Link>{" "}
         <Link href="/webProjects">
-          <a className="nav-link">Web Apps</a>
+          <a className="">Web Apps</a>
         </Link>{" "}
         <Link href="/certificates">
-          <a className="nav-link">Certificates</a>
+          <a className="">Certificates</a>
         </Link>{" "}
       </nav>
       <div className="center">

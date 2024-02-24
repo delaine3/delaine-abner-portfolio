@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import "bootstrap/dist/css/bootstrap.css";
 
 //This is a function that displays my web apps
 export default function Index() {

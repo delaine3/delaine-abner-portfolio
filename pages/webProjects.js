@@ -1,9 +1,166 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import "bootstrap/dist/css/bootstrap.css";
+
+const ProjectListItem = ({
+  title,
+  blurb,
+  technologies,
+  webAppLink,
+  sourceCodeLink,
+}) => (
+  <li className="project-list">
+    <div className="project-links">
+      <div className="project-content p-2">
+        <h2 className="project-name">{title}</h2>
+        <p>{blurb}</p>
+        <h3 className="technologies">Technologies used:</h3>
+        <ul>
+          {technologies.map((tech, index) => (
+            <li key={index} id={`project-${index}`}>
+              {tech}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="container">
+        <a rel="noreferrer" target="_blank" href={webAppLink}>
+          <button>
+            Go to <br /> Web App
+          </button>
+        </a>
+        <a rel="noreferrer" target="_blank" href={sourceCodeLink}>
+          <button>
+            Go to <br /> Source Code
+          </button>
+        </a>
+      </div>
+    </div>
+  </li>
+);
 
 //This is a function that displays my web apps
 export default function WebProjects() {
+  const projects = [
+    {
+      title: "Story Book",
+      blurb:
+        "This app allows you to create and save characters and plots, as well as perform writing exercises through helpful prompts.",
+      technologies: ["MongoDB", "Express", "React", "NodeJS", "Next.js"],
+      webAppLink: "https://day-dream.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/dayDream",
+    },
+    {
+      title: "Memory Game",
+      blurb:
+        "Click on the button below to find out more about the application, its functions, and any attribution associated with it.",
+      technologies: ["MongoDB", "Express", "React", "NodeJS", "Next.js"],
+      webAppLink: "https://a-memory-game-seven.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/A_Memory_Game",
+    },
+    {
+      title: "Pantry",
+      blurb:
+        "Click on the button below to find out more about the application, its functions, and any attribution associated with it.",
+      technologies: ["MongoDB", "Express", "React", "NodeJS", "Next.js"],
+      webAppLink: "https://pantry-dusky.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/Pantry",
+      moreInfoLink: "/webProjects/pantry",
+    },
+    {
+      title: "My Portfolio",
+      blurb: "This is the site that you are currently on.",
+      technologies: ["React", "Next.js"],
+      sourceCodeLink: "https://github.com/delaine3/delaine-abner-portfolio",
+    },
+    {
+      title: "Text Formatter",
+      blurb:
+        "This site was created for people who are trying to clean data. It allows the user to remove characters, separate words by character, enclose strings in characters, and remove duplicates.",
+      technologies: ["React"],
+      webAppLink: "https://text-formatter-zeta.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/Text_Formatter",
+    },
+    {
+      title: "Calculator",
+      blurb:
+        "This app allows you to add, subtract, multiply, and divide numbers. It has an interactive and colorful UI.",
+      technologies: ["Express", "React", "Redux", "Next.js"],
+      webAppLink: "https://calculator-mu-ten.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/calculator",
+    },
+    {
+      title: "Drum Machine",
+      blurb: "This app allows you to play drum sounds using an interactive UI.",
+      technologies: ["React", "Redux"],
+      webAppLink: "https://drum-machine-app-ten.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/Drum-Machine-App",
+    },
+    {
+      title: "Markdown Preview",
+      blurb:
+        "This app allows you to type text and view it as a formatted preview.",
+      technologies: ["React"],
+      webAppLink: "https://codepen.io/Delaine/pen/oNWOPyd", // Assuming Codepen link is acceptable as "webAppLink"
+    },
+    {
+      title: "Whack a Mole Game",
+      blurb:
+        "Click on the button below to find out more about the application, its functions, and any attribution associated with it.",
+      technologies: ["MongoDB", "Express", "React", "NodeJS", "Next.js"],
+      webAppLink: "https://whack-a-mole-green.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/whack_a_mole",
+      moreInfoLink: "/webProjects/wackAMole",
+    },
+    {
+      title: "Random Quote Generator",
+      blurb:
+        "This app allows you to generate random quotes and change the application background.",
+      technologies: ["React", "NodeJS"],
+      webAppLink: "https://random-quote-generator-nu.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/Random-Quote-Generator",
+    },
+    {
+      title: "Connect 4 Game",
+      blurb:
+        "Click on the button below to find out more about the application, its functions, and any attribution associated with it.",
+      technologies: ["MongoDB", "Express", "React", "NodeJS", "Next.js"],
+      webAppLink: "https://connect-four-game.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/Connect_Four_Game",
+      moreInfoLink: "/webProjects/connectFour",
+    },
+    {
+      title: "Snake Game",
+      blurb:
+        "Click on the button below to find out more about the application, its functions, and any attribution associated with it.",
+      technologies: ["MongoDB", "Express", "React", "NodeJS", "Next.js"],
+      webAppLink: "https://snake-game-five-dun.vercel.app/newPlayer",
+      sourceCodeLink: "https://github.com/delaine3/snake_game",
+      moreInfoLink: "/webProjects/snakeGame",
+    },
+    {
+      title: "Timer App",
+      blurb:
+        "This app is similar to a pomodoro timer. Users can set a countdown, as well as schedule breaks.",
+      technologies: ["React"],
+      webAppLink: "https://timer-project-one.vercel.app/",
+      sourceCodeLink: "https://github.com/delaine3/timer-project",
+    },
+    {
+      title: "Simple Website",
+      blurb:
+        "This is a website. All information in the paragraphs was copied verbatim.",
+      technologies: ["HTML", "CSS"],
+      webAppLink: "https://codepen.io/Delaine/pen/NWdZmyW", // Assuming Codepen link is acceptable as "webAppLink"
+    },
+    {
+      title: "Survey Form Website",
+      blurb: "This is a survey form website.",
+      technologies: ["HTML", "CSS"],
+      webAppLink: "https://codepen.io/Delaine/pen/oNBroGY", // Assuming Codepen link is acceptable as "webAppLink"
+    },
+  ];
   return (
     <div className="center">
       <Head>
@@ -32,594 +189,9 @@ export default function WebProjects() {
           . All projects are currently a work in progress.
         </p>
         <ul className="grid">
-          <li className="project-list">
-            <h2 className="project-name">Story Book </h2>
-            <div id="project-links">
-              <p>
-                This app allows you to create and save characters and plots, as
-                well as perform writing excercises through helpful prompts.
-              </p>
-              <h3 className="technologies">Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">React</li>
-                <li id="project">NodeJS</li>
-                <li id="project">Next.js</li>
-              </ul>{" "}
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://day-dream.vercel.app/"
-                >
-                  {" "}
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App{" "}
-                  </button>
-                </a>{" "}
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/dayDream"
-                >
-                  {" "}
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name"> Memory Game </h2>
-            <div id="project-links">
-              <p>
-                Click on the button below to find out more about the
-                application, its functions, and any attribution associated with
-                it.
-              </p>
-              <Link href="webProjects\memoryGame">
-                <button>Find out more</button>
-              </Link>
-              <h3 className="technologies">Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">React</li>
-                <li id="project">NodeJS</li>
-                <li id="project">Next.js</li>
-              </ul>{" "}
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://a-memory-game-seven.vercel.app/"
-                >
-                  {" "}
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App{" "}
-                  </button>
-                </a>{" "}
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/A_Memory_Game"
-                >
-                  {" "}
-                  <button>
-                    {" "}
-                    Go to
-                    <br /> Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Pantry</h2>
-            <div id="project-links">
-              <p>
-                Click on the button below to find out more about the
-                application, its functions, and any attribution associated with
-                it.
-              </p>
-              <Link href="webProjects\pantry">
-                <button>Find out more</button>
-              </Link>
-              <h3 className="technologies">Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">React</li>
-                <li id="project">NodeJS</li>
-                <li id="project">Next.js</li>
-              </ul>{" "}
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://pantry-dusky.vercel.app/"
-                >
-                  <button>
-                    Go to
-                    <br /> Web App
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/Pantry"
-                >
-                  <button>
-                    Go to
-                    <br /> Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">My Portfolio</h2>
-            <div id="project-links">
-              <p>
-                This is the site that you are currently on.
-                <p>
-                  <h3 className="technologies">Technologies used:</h3>
-                  <ul>
-                    <li id="project">React</li>
-                    <li id="project">Next.js</li>
-                  </ul>{" "}
-                </p>
-              </p>{" "}
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/delaine-abner-portfolio"
-                >
-                  {" "}
-                  <button>
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Text Formatter</h2>
-            <div id="project-links">
-              <p>
-                This site was created for people who are trying to clean data.
-                It allows the user to remove characters, separate words by
-                character, enclose strings in characters, and remove duplicates.
-                <p>
-                  <h3 className="technologies">Technologies used:</h3>
-                  <ul>
-                    <li id="project">React</li>
-                  </ul>
-                </p>
-              </p>
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://text-formatter-zeta.vercel.app/"
-                >
-                  <button>
-                    {" "}
-                    Go to
-                    <br /> Web App
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/Text_Formatter"
-                >
-                  <button>
-                    Go to
-                    <br /> Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Calculator </h2>
-            <div id="project-links">
-              <p>
-                This app allows you to add, subtract, multiply, and divide
-                numbers. It has an interactive and colorful UI.
-                <p>
-                  <h3 className="technologies">Technologies used:</h3>
-                  <ul>
-                    <li id="project">Express</li>
-                    <li id="project">React</li>
-                    <li id="project">Redux</li>
-                    <li id="project">Next.js</li>
-                  </ul>{" "}
-                </p>
-              </p>
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://calculator-mu-ten.vercel.app/"
-                >
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/calculator"
-                >
-                  <button>
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Drum Machine </h2>
-            <div id="project-links">
-              <p>
-                This app allows you to play drum sounds using an interactive UI.
-                <p>
-                  <h3 className="technologies">Technologies used:</h3>
-                  <ul>
-                    <li id="project">React</li>
-                    <li id="project">Redux</li>
-                  </ul>{" "}
-                </p>
-              </p>
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://drum-machine-app-ten.vercel.app/"
-                >
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App{" "}
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/Drum-Machine-App"
-                >
-                  <button>
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Markdown Preview </h2>
-            <div id="project-links">
-              <p>
-                This app allows you to type text and view it as a formatted
-                preview.
-                <p>
-                  <h3 className="technologies">Technologies used:</h3>
-                  <ul>
-                    <li id="project">React</li>
-                  </ul>{" "}
-                </p>
-              </p>
-
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://codepen.io/Delaine/pen/oNWOPyd"
-                >
-                  <button>
-                    Go to <br />
-                    Codepen
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Whack a Mole Game </h2>
-
-            <div id="project-links">
-              <p>
-                Click on the button below to find out more about the
-                application, its functions, and any attribution associated with
-                it.
-              </p>
-              <Link href="/webProjects\wackAMole">
-                <button>Find out more</button>
-              </Link>
-              <h3 className="technologies">Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">React</li>
-                <li id="project">NodeJS</li>
-                <li id="project">Next.js</li>
-              </ul>{" "}
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://whack-a-mole-green.vercel.app/"
-                >
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App{" "}
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/whack_a_mole"
-                >
-                  <button>
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Random Quote Generator </h2>
-            <div id="project-links">
-              <p>
-                This app allows you to generate random quotes and change the
-                application background.
-                <p>
-                  <h3 className="technologies">Technologies used:</h3>
-                  <ul>
-                    <li id="project">React</li>
-                    <li id="project">NodeJS</li>
-                  </ul>{" "}
-                </p>
-              </p>
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://random-quote-generator-nu.vercel.app/"
-                >
-                  <button>
-                    Go to <br />
-                    Web App
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/Random-Quote-Generator"
-                >
-                  <button>
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Connect 4 Game </h2>
-            <div id="project-links">
-              <p>
-                Click on the button below to find out more about the
-                application, its functions, and any attribution associated with
-                it.
-              </p>
-              <Link href="/webProjects\connectFour">
-                <button>Find out more</button>
-              </Link>
-              <h3 className="technologies">Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">React</li>
-                <li id="project">NodeJS</li>
-                <li id="project">Next.js</li>
-              </ul>{" "}
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://connect-four-game.vercel.app/"
-                >
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App{" "}
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/Connect_Four_Game"
-                >
-                  <button>
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <li className="project-list">
-            <h2 className="project-name">Snake Game </h2>
-            <div id="project-links">
-              <p>
-                Click on the button below to find out more about the
-                application, its functions, and any attribution associated with
-                it.
-              </p>
-              <Link href="/webProjects\snakeGame">
-                <button>Find out more</button>
-              </Link>
-              <h3 className="technologies">Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">React</li>
-                <li id="project">NodeJS</li>
-                <li id="project">Next.js</li>
-              </ul>{" "}
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://snake-game-five-dun.vercel.app/newPlayer"
-                >
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/snake_game"
-                >
-                  <button>
-                    Go to <br />
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Timer App </h2>
-            <div id="project-links">
-              <div>
-                <p>
-                  This app is similar to a pomodoro timer. Users can set a
-                  countdown, as well as schedule breaks.
-                  <p>
-                    <h3 className="technologies">Technologies used:</h3>
-                    <ul>
-                      <li id="project">React</li>
-                    </ul>{" "}
-                  </p>
-                </p>
-              </div>
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://timer-project-one.vercel.app/"
-                >
-                  <button>
-                    {" "}
-                    Go to <br />
-                    Web App
-                  </button>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/delaine3/timer-project"
-                >
-                  <button>
-                    Go to
-                    <br /> Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name">Simple Website</h2>
-            <div id="project-links">
-              <div>
-                <p>
-                  This is a website. All information in the paragraphs was
-                  copied verbatim from{" "}
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/"
-                  >
-                    this website
-                  </a>
-                  .
-                  <p>
-                    <h3 className="technologies">Technologies used:</h3>
-                    <ul>
-                      <li id="project">HTML</li>
-                      <li id="project">CSS</li>
-                    </ul>{" "}
-                  </p>
-                </p>
-              </div>
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://codepen.io/Delaine/pen/NWdZmyW"
-                >
-                  <button>
-                    {" "}
-                    Go to
-                    <br /> Codepen
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className="project-list">
-            <h2 className="project-name"> Survey Form Website</h2>
-            <div id="project-links">
-              <div>
-                <p>
-                  This is a survey form website.
-                  <p>
-                    <h3 className="technologies">Technologies used:</h3>
-                    <ul>
-                      <li id="project">HTML</li>
-                      <li id="project">CSS</li>
-                    </ul>{" "}
-                  </p>
-                </p>
-              </div>
-              <div className="container">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://codepen.io/Delaine/pen/oNBroGY"
-                >
-                  <button>
-                    {" "}
-                    Go to
-                    <br /> Codepen
-                  </button>
-                </a>
-              </div>
-            </div>
-          </li>
+          {projects.map((project, index) => (
+            <ProjectListItem key={index} {...project} />
+          ))}
         </ul>
       </div>
     </div>
