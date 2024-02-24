@@ -256,15 +256,14 @@ img {
   width: 150px;
 }
 .index-card {
+  align-items: center;
   min-width: min-content;
-  display: inline-block;
+  padding: 7px;
   width: 300px;
-  padding: 20px;
   height: 400px;
-  overflow-wrap: break-word;
-  border: 1.25px solid rgba(35, 69, 151, 0.684);
+  border: 1.25px solid rgba(36, 85, 199, 0.568);
   border-radius: 16px;
-  margin: 10px;
+  margin: 5px;
   position: relative;
   background-color: #ffffff91;
 }

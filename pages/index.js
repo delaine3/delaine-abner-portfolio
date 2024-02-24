@@ -24,7 +24,7 @@ export default function Index() {
               combination of the following technologies:
             </p>
             <ul>
-              <li id="project">MongoDB</li>
+              <li>MongoDB</li>
               <li>MongoDB</li>
               <li>Express</li>
               <li>React</li>
